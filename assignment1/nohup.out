@@ -1,0 +1,1355 @@
+[W 13:43:01.598 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 13:43:01.617 NotebookApp] Serving notebooks from local directory: /home/hmf/cs231n/assignment1
+[I 13:43:01.618 NotebookApp] 0 active kernels
+[I 13:43:01.618 NotebookApp] The Jupyter Notebook is running at:
+[I 13:43:01.618 NotebookApp] http://[all ip addresses on your system]:9999/
+[I 13:43:01.618 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(B)0[1;24r[m[?7h[?1h=[H[J[21B[0;7mGetting http://localhost:9999/tree[m[0;7mLooking up localhost:9999[m         [22;26H[0;7mMaking HTTP connection to localhost:9999[m[0;7mSending HTTP request.[m                   [22;22H[0;7mHTTP request sent; waiting for response.[m
+
+[24;1H[?1l>[I 13:43:01.642 NotebookApp] 302 GET /tree (::1) 3.37ms
+[W 13:43:37.335 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.251) 15.08ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 13:43:56.301 NotebookApp] Kernel started: b78f4bbb-e386-4a62-88e9-45cb37fe25fe
+[I 13:43:57.505 NotebookApp] Adapting to protocol v5.1 for kernel b78f4bbb-e386-4a62-88e9-45cb37fe25fe
+[W 13:43:57.851 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.251) 2.92ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 13:43:58.881 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.251) 3.90ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 13:44:40.919 NotebookApp] Starting buffering for b78f4bbb-e386-4a62-88e9-45cb37fe25fe:49A6EC9AD2D54AC1A81D3B1CE58DAD21
+[W 13:44:49.795 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.251) 2.29ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 13:44:54.658 NotebookApp] Adapting to protocol v5.1 for kernel b78f4bbb-e386-4a62-88e9-45cb37fe25fe
+[W 13:44:55.258 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.251) 2.93ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 13:44:56.363 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.251) 3.43ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 13:46:55.512 NotebookApp] Saving file at /knn.ipynb
+[I 13:48:55.801 NotebookApp] Saving file at /knn.ipynb
+[I 13:54:54.456 NotebookApp] Starting buffering for b78f4bbb-e386-4a62-88e9-45cb37fe25fe:32289EA834634DD2917B90751C4CF0FF
+[I 14:00:31.627 NotebookApp] 302 GET /tree? (172.23.11.251) 1.21ms
+[I 14:01:01.763 NotebookApp] 302 GET /notebooks/knn.ipynb (172.23.11.251) 1.29ms
+[I 11:56:19.563 NotebookApp] 302 GET / (172.23.11.251) 0.90ms
+[I 11:56:19.600 NotebookApp] 302 GET /tree? (172.23.11.251) 1.83ms
+[I 11:56:31.366 NotebookApp] 302 POST /login?next=%2Ftree%3F (172.23.11.251) 3.15ms
+[W 11:56:36.915 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.251) 2.93ms referer=http://172.23.27.188:9999/tree?
+[W 11:56:37.245 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.251) 2.19ms referer=http://172.23.27.188:9999/tree?
+[W 12:28:59.749 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.251) 1.89ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 12:28:59.751 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.251) 1.66ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 12:28:59.773 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.251) 3.10ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 12:29:03.253 NotebookApp] Adapting to protocol v5.1 for kernel b78f4bbb-e386-4a62-88e9-45cb37fe25fe
+[I 12:31:03.764 NotebookApp] Saving file at /knn.ipynb
+[I 12:39:50.739 NotebookApp] Starting buffering for b78f4bbb-e386-4a62-88e9-45cb37fe25fe:81B0D1F24C6C4C988A5F322C29ED4DC5
+[I 12:40:19.177 NotebookApp] Adapting to protocol v5.1 for kernel b78f4bbb-e386-4a62-88e9-45cb37fe25fe
+[I 12:40:19.179 NotebookApp] Restoring connection for b78f4bbb-e386-4a62-88e9-45cb37fe25fe:81B0D1F24C6C4C988A5F322C29ED4DC5
+[I 13:16:34.552 NotebookApp] Starting buffering for b78f4bbb-e386-4a62-88e9-45cb37fe25fe:81B0D1F24C6C4C988A5F322C29ED4DC5
+[W 14:50:37.485 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.251) 2.59ms referer=http://172.23.27.188:9999/tree?
+[W 14:50:37.715 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.251) 5.75ms referer=http://172.23.27.188:9999/tree?
+[W 14:50:46.630 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.251) 37.35ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 14:50:46.634 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.251) 2.68ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 14:50:46.639 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.251) 2.24ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 14:50:49.834 NotebookApp] Adapting to protocol v5.1 for kernel b78f4bbb-e386-4a62-88e9-45cb37fe25fe
+[W 15:07:53.828 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.251) 3.74ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 15:07:53.880 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.251) 2.38ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 15:07:53.902 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.251) 2.92ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 15:12:50.284 NotebookApp] Saving file at /knn.ipynb
+[I 15:14:50.130 NotebookApp] Saving file at /knn.ipynb
+[I 15:19:02.263 NotebookApp] Saving file at /knn.ipynb
+[I 15:21:12.970 NotebookApp] Saving file at /knn.ipynb
+[I 15:23:22.778 NotebookApp] Saving file at /knn.ipynb
+[I 15:25:32.839 NotebookApp] Saving file at /knn.ipynb
+[I 15:38:33.239 NotebookApp] Saving file at /knn.ipynb
+[I 15:59:06.343 NotebookApp] Starting buffering for b78f4bbb-e386-4a62-88e9-45cb37fe25fe:16D18D0EBAAD4B1AA4F984D8C6EAE012
+[I 15:59:20.957 NotebookApp] Adapting to protocol v5.1 for kernel b78f4bbb-e386-4a62-88e9-45cb37fe25fe
+[I 15:59:20.958 NotebookApp] Restoring connection for b78f4bbb-e386-4a62-88e9-45cb37fe25fe:16D18D0EBAAD4B1AA4F984D8C6EAE012
+[I 16:13:53.859 NotebookApp] Saving file at /knn.ipynb
+[I 16:30:44.199 NotebookApp] Saving file at /knn.ipynb
+[I 16:47:33.721 NotebookApp] Saving file at /knn.ipynb
+[I 17:04:26.282 NotebookApp] Saving file at /knn.ipynb
+[I 17:38:17.154 NotebookApp] Saving file at /knn.ipynb
+[I 17:40:17.356 NotebookApp] Starting buffering for b78f4bbb-e386-4a62-88e9-45cb37fe25fe:16D18D0EBAAD4B1AA4F984D8C6EAE012
+[I 09:59:23.072 NotebookApp] 302 GET /tree? (172.23.11.252) 1.74ms
+[I 09:59:26.355 NotebookApp] 302 POST /login?next=%2Ftree%3F (172.23.11.252) 2.27ms
+[W 09:59:27.476 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 3.12ms referer=http://172.23.27.188:9999/tree?
+[W 09:59:27.496 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.98ms referer=http://172.23.27.188:9999/tree?
+[W 10:28:11.868 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.73ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 10:28:12.219 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 2.15ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 10:28:12.238 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.252) 2.07ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 10:28:18.671 NotebookApp] Adapting to protocol v5.1 for kernel b78f4bbb-e386-4a62-88e9-45cb37fe25fe
+[I 11:47:34.992 NotebookApp] Starting buffering for b78f4bbb-e386-4a62-88e9-45cb37fe25fe:4D6444F3B15A42A7AD5E2A0628CD4BEA
+[W 15:47:56.482 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 2.10ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 15:47:56.497 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.44ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 15:47:56.533 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.252) 2.74ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 15:48:01.867 NotebookApp] Couldn't authenticate WebSocket connection
+[W 15:48:01.871 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=17194B7D7F184BCB8DD8441B75DC1B35 (172.23.11.252) 6.13ms referer=None
+[W 15:48:02.954 NotebookApp] Couldn't authenticate WebSocket connection
+[W 15:48:02.958 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=17194B7D7F184BCB8DD8441B75DC1B35 (172.23.11.252) 7.23ms referer=None
+[W 15:48:05.094 NotebookApp] Couldn't authenticate WebSocket connection
+[W 15:48:05.096 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=17194B7D7F184BCB8DD8441B75DC1B35 (172.23.11.252) 5.29ms referer=None
+[W 15:48:09.139 NotebookApp] Couldn't authenticate WebSocket connection
+[W 15:48:09.141 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=17194B7D7F184BCB8DD8441B75DC1B35 (172.23.11.252) 5.59ms referer=None
+[W 15:48:10.958 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.22ms referer=http://172.23.27.188:9999/tree?
+[W 15:48:10.961 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 1.80ms referer=http://172.23.27.188:9999/tree?
+[W 15:48:17.229 NotebookApp] Couldn't authenticate WebSocket connection
+[W 15:48:17.232 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=17194B7D7F184BCB8DD8441B75DC1B35 (172.23.11.252) 5.86ms referer=None
+[W 15:48:18.945 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 2.91ms referer=http://172.23.27.188:9999/tree?
+[W 15:48:18.956 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.75ms referer=http://172.23.27.188:9999/tree?
+[W 15:48:36.270 NotebookApp] Couldn't authenticate WebSocket connection
+[W 15:48:36.272 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=17194B7D7F184BCB8DD8441B75DC1B35 (172.23.11.252) 4.11ms referer=None
+[W 15:49:08.316 NotebookApp] Couldn't authenticate WebSocket connection
+[W 15:49:08.319 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=17194B7D7F184BCB8DD8441B75DC1B35 (172.23.11.252) 6.40ms referer=None
+[W 15:49:15.977 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 3.29ms referer=http://172.23.27.188:9999/tree?
+[W 15:49:15.983 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 2.18ms referer=http://172.23.27.188:9999/tree?
+[W 15:50:33.465 NotebookApp] Couldn't authenticate WebSocket connection
+[W 15:50:33.467 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=17194B7D7F184BCB8DD8441B75DC1B35 (172.23.11.252) 4.08ms referer=None
+[W 15:59:56.121 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 1.98ms referer=http://172.23.27.188:9999/tree?
+[W 15:59:56.189 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 3.53ms referer=http://172.23.27.188:9999/tree?
+[W 16:00:25.289 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.52ms referer=http://172.23.27.188:9999/tree?
+[W 16:00:25.461 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 2.63ms referer=http://172.23.27.188:9999/tree?
+[W 16:01:20.386 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.16ms referer=http://172.23.27.188:9999/tree?
+[W 16:01:20.390 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 1.69ms referer=http://172.23.27.188:9999/tree?
+[W 16:01:37.956 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.00ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 16:01:37.960 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.252) 1.95ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 16:01:37.962 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 1.72ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 16:01:41.088 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:01:41.090 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=37DCBB990F6541138A67B5EDD56715D5 (172.23.11.252) 4.45ms referer=None
+[W 16:01:42.166 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:01:42.170 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=37DCBB990F6541138A67B5EDD56715D5 (172.23.11.252) 7.67ms referer=None
+[W 16:01:44.270 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:01:44.273 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=37DCBB990F6541138A67B5EDD56715D5 (172.23.11.252) 5.84ms referer=None
+[W 16:01:48.388 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:01:48.390 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=37DCBB990F6541138A67B5EDD56715D5 (172.23.11.252) 5.00ms referer=None
+[W 16:01:56.526 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:01:56.528 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=37DCBB990F6541138A67B5EDD56715D5 (172.23.11.252) 4.40ms referer=None
+[W 16:01:57.373 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 1.98ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 16:01:57.377 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.252) 1.81ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 16:01:57.379 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 1.38ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 16:02:00.790 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:00.791 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=1A768085D51F4DE5B2D9B5A0C39CE6EB (172.23.11.252) 4.19ms referer=None
+[W 16:02:01.858 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:01.860 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=1A768085D51F4DE5B2D9B5A0C39CE6EB (172.23.11.252) 6.02ms referer=None
+[W 16:02:03.987 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:03.990 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=1A768085D51F4DE5B2D9B5A0C39CE6EB (172.23.11.252) 6.08ms referer=None
+[W 16:02:08.060 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:08.063 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=1A768085D51F4DE5B2D9B5A0C39CE6EB (172.23.11.252) 5.77ms referer=None
+[W 16:02:12.704 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:12.707 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=37DCBB990F6541138A67B5EDD56715D5 (172.23.11.252) 5.37ms referer=None
+[W 16:02:16.165 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:16.167 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=1A768085D51F4DE5B2D9B5A0C39CE6EB (172.23.11.252) 4.47ms referer=None
+[W 16:02:32.321 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:32.324 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=1A768085D51F4DE5B2D9B5A0C39CE6EB (172.23.11.252) 5.17ms referer=None
+[W 16:02:44.999 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:45.001 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=37DCBB990F6541138A67B5EDD56715D5 (172.23.11.252) 5.93ms referer=None
+[W 16:02:52.016 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.74ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 16:02:52.416 NotebookApp] Notebook features.ipynb is not trusted
+[W 16:02:52.434 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 2.00ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 16:02:52.436 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.252) 2.08ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 16:02:54.438 NotebookApp] Kernel started: 7ac53ae5-33fa-4527-b2f3-cd1e3a6edeb4
+[W 16:02:54.563 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:54.568 NotebookApp] 403 GET /api/kernels/7ac53ae5-33fa-4527-b2f3-cd1e3a6edeb4/channels?session_id=5547D68FC82C4E7E90480525980BDFE3 (172.23.11.252) 18.04ms referer=None
+[W 16:02:55.616 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:55.737 NotebookApp] 403 GET /api/kernels/7ac53ae5-33fa-4527-b2f3-cd1e3a6edeb4/channels?session_id=5547D68FC82C4E7E90480525980BDFE3 (172.23.11.252) 123.50ms referer=None
+[W 16:02:57.818 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:02:57.820 NotebookApp] 403 GET /api/kernels/7ac53ae5-33fa-4527-b2f3-cd1e3a6edeb4/channels?session_id=5547D68FC82C4E7E90480525980BDFE3 (172.23.11.252) 4.69ms referer=None
+[W 16:03:49.048 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:03:49.050 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=37DCBB990F6541138A67B5EDD56715D5 (172.23.11.252) 4.82ms referer=None
+[W 16:06:42.879 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 3.96ms referer=http://172.23.27.188:9999/tree?
+[W 16:06:42.885 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 3.05ms referer=http://172.23.27.188:9999/tree?
+[W 16:06:47.689 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180117134301 (172.23.11.252) 2.08ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 16:06:47.693 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180117134301 (172.23.11.252) 2.58ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 16:06:47.699 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180117134301 (172.23.11.252) 2.69ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 16:06:51.152 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:06:51.154 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=C226B4160F34471B81BCBA0AAA45AE36 (172.23.11.252) 4.55ms referer=None
+[W 16:06:52.222 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:06:52.223 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=C226B4160F34471B81BCBA0AAA45AE36 (172.23.11.252) 3.91ms referer=None
+[W 16:06:54.338 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:06:54.340 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=C226B4160F34471B81BCBA0AAA45AE36 (172.23.11.252) 4.65ms referer=None
+[W 16:06:58.389 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:06:58.393 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=C226B4160F34471B81BCBA0AAA45AE36 (172.23.11.252) 6.47ms referer=None
+[W 16:07:06.429 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:07:06.431 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=C226B4160F34471B81BCBA0AAA45AE36 (172.23.11.252) 3.76ms referer=None
+[W 16:07:22.475 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:07:22.477 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=C226B4160F34471B81BCBA0AAA45AE36 (172.23.11.252) 4.77ms referer=None
+[W 16:07:54.533 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:07:54.536 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=C226B4160F34471B81BCBA0AAA45AE36 (172.23.11.252) 5.54ms referer=None
+[I 16:08:51.637 NotebookApp] Saving file at /knn.ipynb
+[W 16:08:58.643 NotebookApp] Couldn't authenticate WebSocket connection
+[W 16:08:58.645 NotebookApp] 403 GET /api/kernels/b78f4bbb-e386-4a62-88e9-45cb37fe25fe/channels?session_id=C226B4160F34471B81BCBA0AAA45AE36 (172.23.11.252) 3.82ms referer=None
+[C 16:10:40.049 NotebookApp] received signal 15, stopping
+[I 16:10:40.050 NotebookApp] Shutting down 2 kernels
+[I 16:10:41.358 NotebookApp] Kernel shutdown: b78f4bbb-e386-4a62-88e9-45cb37fe25fe
+[I 16:10:41.359 NotebookApp] Kernel shutdown: 7ac53ae5-33fa-4527-b2f3-cd1e3a6edeb4
+[W 21:05:48.096 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 21:05:48.110 NotebookApp] Serving notebooks from local directory: /home/hmf/cs231n/assignment1
+[I 21:05:48.111 NotebookApp] 0 active kernels
+[I 21:05:48.111 NotebookApp] The Jupyter Notebook is running at:
+[I 21:05:48.111 NotebookApp] http://[all ip addresses on your system]:9999/
+[I 21:05:48.111 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(B)0[1;24r[m[?7h[?1h=[H[J[21B[0;7mGetting http://localhost:9999/tree[m[0;7mLooking up localhost:9999[m         [22;26H[0;7mMaking HTTP connection to localhost:9999[m[0;7mSending HTTP request.[m                   [22;22H[0;7mHTTP request sent; waiting for response.[m
+
+[24;1H[?1l>[I 21:05:48.147 NotebookApp] 302 GET /tree (::1) 4.61ms
+[I 21:06:06.535 NotebookApp] Saving file at /knn.ipynb
+[E 21:06:57.469 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/usr/local/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 264, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/usr/local/lib/python3.6/site-packages/notebook/services/kernels/kernelmanager.py", line 343, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: d56568d0-ae08-4014-983c-23a8ec81bc93)
+[E 21:06:57.498 NotebookApp] {
+      "Host": "172.23.27.188:9999",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://172.23.27.188:9999",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|6d8e9452|f859bd7b1183b28406a81f53a048fa90|1516499963",
+      "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36",
+      "Referer": "http://172.23.27.188:9999/notebooks/knn.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Cookie": "_xsrf=2|6d8e9452|f859bd7b1183b28406a81f53a048fa90|1516499963; username-172-23-27-188-9999=\"2|1:0|10:1516499966|27:username-172-23-27-188-9999|44:NGRlYzM1NmMxOWE1NDI0ZjljMWQ5OGNlMGJlYWE3Yjk=|864d7e05a4fdc420fc9a45070e9d93545a634d83df1036862576bf6ffd2008ba\""
+    }
+[E 21:06:57.498 NotebookApp] 500 POST /api/kernels/d56568d0-ae08-4014-983c-23a8ec81bc93/restart (172.23.11.252) 30.77ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 21:06:58.400 NotebookApp] 404 DELETE /api/sessions/15f84bb8-f2d7-4a50-9728-47bcffdd023a (172.23.11.252): Session not found: session_id='15f84bb8-f2d7-4a50-9728-47bcffdd023a'
+[W 21:06:58.401 NotebookApp] Session not found: session_id='15f84bb8-f2d7-4a50-9728-47bcffdd023a'
+[W 21:06:58.401 NotebookApp] 404 DELETE /api/sessions/15f84bb8-f2d7-4a50-9728-47bcffdd023a (172.23.11.252) 2.23ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 21:06:58.474 NotebookApp] Kernel started: c96d19d1-69b2-44c3-ae47-88b8f265a7c5
+[I 21:06:59.779 NotebookApp] Adapting to protocol v5.1 for kernel c96d19d1-69b2-44c3-ae47-88b8f265a7c5
+[I 21:08:06.183 NotebookApp] Saving file at /knn.ipynb
+[I 21:10:06.534 NotebookApp] Saving file at /knn.ipynb
+[I 21:12:06.126 NotebookApp] Saving file at /knn.ipynb
+[I 21:40:06.218 NotebookApp] Saving file at /knn.ipynb
+[I 21:42:06.170 NotebookApp] Saving file at /knn.ipynb
+[I 22:20:16.291 NotebookApp] Starting buffering for c96d19d1-69b2-44c3-ae47-88b8f265a7c5:A9F2FEA08687414C885439AE43BE712E
+[I 09:20:18.273 NotebookApp] Adapting to protocol v5.1 for kernel c96d19d1-69b2-44c3-ae47-88b8f265a7c5
+[I 09:20:18.275 NotebookApp] Restoring connection for c96d19d1-69b2-44c3-ae47-88b8f265a7c5:A9F2FEA08687414C885439AE43BE712E
+[I 10:18:40.743 NotebookApp] Saving file at /knn.ipynb
+[I 10:21:32.609 NotebookApp] Saving file at /knn.ipynb
+[I 10:24:13.138 NotebookApp] Starting buffering for c96d19d1-69b2-44c3-ae47-88b8f265a7c5:A9F2FEA08687414C885439AE43BE712E
+[I 10:24:47.779 NotebookApp] Adapting to protocol v5.1 for kernel c96d19d1-69b2-44c3-ae47-88b8f265a7c5
+[I 10:24:47.780 NotebookApp] Restoring connection for c96d19d1-69b2-44c3-ae47-88b8f265a7c5:A9F2FEA08687414C885439AE43BE712E
+[I 10:27:11.282 NotebookApp] Saving file at /knn.ipynb
+[I 10:30:01.450 NotebookApp] Saving file at /knn.ipynb
+[I 10:32:54.854 NotebookApp] Saving file at /knn.ipynb
+[I 10:35:41.563 NotebookApp] Saving file at /knn.ipynb
+[I 10:38:31.582 NotebookApp] Saving file at /knn.ipynb
+[I 10:41:21.623 NotebookApp] Saving file at /knn.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[I 11:09:41.633 NotebookApp] Saving file at /knn.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 232, in dispatch_shell
+    handler(stream, idents, msg)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 397, in execute_request
+    user_expressions, allow_stdin)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 208, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/usr/local/lib/python3.6/site-packages/ipykernel/zmqshell.py", line 533, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 2690, in run_cell
+    cell_name = self.compile.cache(cell, self.execution_count)
+  File "/usr/local/lib/python3.6/site-packages/IPython/core/compilerop.py", line 133, in cache
+    linecache._ipython_cache[name] = entry
+AttributeError: module 'linecache' has no attribute '_ipython_cache'
+[I 11:12:32.242 NotebookApp] Saving file at /knn.ipynb
+[C 11:13:01.420 NotebookApp] received signal 15, stopping
+[I 11:13:01.422 NotebookApp] Shutting down 1 kernel
+[I 11:13:02.230 NotebookApp] Kernel shutdown: c96d19d1-69b2-44c3-ae47-88b8f265a7c5
+[W 11:14:01.437 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 11:14:01.459 NotebookApp] Serving notebooks from local directory: /home/hmf/cs231n/assignment1
+[I 11:14:01.459 NotebookApp] 0 active kernels
+[I 11:14:01.459 NotebookApp] The Jupyter Notebook is running at:
+[I 11:14:01.460 NotebookApp] http://[all ip addresses on your system]:9999/
+[I 11:14:01.460 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(B)0[1;24r[m[?7h[?1h=[H[J[21B[0;7mGetting http://localhost:9999/tree[m[0;7mLooking up localhost:9999[m         [22;26H[0;7mMaking HTTP connection to localhost:9999[m[0;7mSending HTTP request.[m                   [22;22H[0;7mHTTP request sent; waiting for response.[m
+
+[24;1H[?1l>[I 11:14:01.498 NotebookApp] 302 GET /tree (::1) 5.00ms
+[W 11:14:12.778 NotebookApp] Notebook features.ipynb is not trusted
+[W 11:14:12.824 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180123111400 (172.23.11.251) 21.17ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 11:14:13.965 NotebookApp] Kernel started: b5c58144-f9e1-457a-9690-8900e02781b5
+[I 11:14:15.101 NotebookApp] Adapting to protocol v5.1 for kernel b5c58144-f9e1-457a-9690-8900e02781b5
+[I 11:14:16.638 NotebookApp] Starting buffering for b5c58144-f9e1-457a-9690-8900e02781b5:A1DBA6D7325A4B80B3A84949C6BE041E
+[W 11:14:18.349 NotebookApp] 404 GET /api/kernels/c96d19d1-69b2-44c3-ae47-88b8f265a7c5/channels?session_id=A9F2FEA08687414C885439AE43BE712E (172.23.11.251): Kernel does not exist: c96d19d1-69b2-44c3-ae47-88b8f265a7c5
+[W 11:14:18.353 NotebookApp] 404 GET /api/kernels/c96d19d1-69b2-44c3-ae47-88b8f265a7c5/channels?session_id=A9F2FEA08687414C885439AE43BE712E (172.23.11.251) 9.22ms referer=None
+[W 11:14:20.797 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180123111400 (172.23.11.251) 2.28ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 11:14:22.112 NotebookApp] Kernel started: 3505c26f-b528-4c70-954b-962152bce639
+[I 11:14:23.108 NotebookApp] Adapting to protocol v5.1 for kernel 3505c26f-b528-4c70-954b-962152bce639
+[W 11:15:23.938 NotebookApp] Replacing stale connection: c96d19d1-69b2-44c3-ae47-88b8f265a7c5:A9F2FEA08687414C885439AE43BE712E
+[I 11:16:22.356 NotebookApp] Saving file at /knn.ipynb
+[I 11:18:22.752 NotebookApp] Saving file at /knn.ipynb
+[I 11:34:22.445 NotebookApp] Saving file at /knn.ipynb
+[I 11:36:23.281 NotebookApp] Saving file at /knn.ipynb
+[I 13:52:40.255 NotebookApp] Starting buffering for 3505c26f-b528-4c70-954b-962152bce639:172AE0F283BD4AEFA2D966E353B4D895
+[W 14:01:47.773 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180123111400 (172.23.11.251) 8.59ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 14:01:51.101 NotebookApp] Adapting to protocol v5.1 for kernel 3505c26f-b528-4c70-954b-962152bce639
+[I 14:03:53.161 NotebookApp] Saving file at /knn.ipynb
+[I 15:13:06.791 NotebookApp] Starting buffering for 3505c26f-b528-4c70-954b-962152bce639:9E722020FC014AF88C403BB519274E5F
+[I 15:13:40.802 NotebookApp] Adapting to protocol v5.1 for kernel 3505c26f-b528-4c70-954b-962152bce639
+[I 15:13:40.803 NotebookApp] Restoring connection for 3505c26f-b528-4c70-954b-962152bce639:9E722020FC014AF88C403BB519274E5F
+[I 18:21:51.726 NotebookApp] Saving file at /knn.ipynb
+[I 18:23:51.545 NotebookApp] Saving file at /knn.ipynb
+[I 18:25:51.548 NotebookApp] Saving file at /knn.ipynb
+[W 18:26:09.580 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180123111400 (172.23.11.251) 2.66ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 18:26:10.778 NotebookApp] Adapting to protocol v5.1 for kernel 3505c26f-b528-4c70-954b-962152bce639
+[I 18:26:52.991 NotebookApp] Interrupted...
+[I 18:26:52.991 NotebookApp] Shutting down 2 kernels
+[I 18:26:53.395 NotebookApp] Kernel shutdown: b5c58144-f9e1-457a-9690-8900e02781b5
+Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-notebook", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/jupyter_core/application.py", line 266, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/traitlets/config/application.py", line 658, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.6/site-packages/notebook/notebookapp.py", line 1501, in start
+    self.cleanup_kernels()
+  File "/usr/local/lib/python3.6/site-packages/notebook/notebookapp.py", line 1383, in cleanup_kernels
+    self.kernel_manager.shutdown_all()
+  File "/usr/local/lib/python3.6/site-packages/jupyter_client/multikernelmanager.py", line 160, in shutdown_all
+    self.finish_shutdown(kid)
+  File "/usr/local/lib/python3.6/site-packages/jupyter_client/multikernelmanager.py", line 33, in wrapped
+    r = method(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/jupyter_client/manager.py", line 280, in finish_shutdown
+    time.sleep(pollinterval)
+KeyboardInterrupt
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[W 18:27:30.411 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 18:27:30.437 NotebookApp] Serving notebooks from local directory: /home/hmf/cs231n/assignment1
+[I 18:27:30.437 NotebookApp] 0 active kernels
+[I 18:27:30.437 NotebookApp] The Jupyter Notebook is running at:
+[I 18:27:30.437 NotebookApp] http://[all ip addresses on your system]:9999/
+[I 18:27:30.437 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(B)0[1;24r[m[?7h[?1h=[H[J[21B[0;7mGetting http://localhost:9999/tree[m[0;7mLooking up localhost:9999[m         [22;26H[0;7mMaking HTTP connection to localhost:9999[m[0;7mSending HTTP request.[m                   [22;22H[0;7mHTTP request sent; waiting for response.[m
+
+[24;1H[?1l>[I 18:27:30.473 NotebookApp] 302 GET /tree (::1) 3.54ms
+[W 18:27:47.436 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180123182729 (172.23.11.251) 14.88ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 18:27:48.432 NotebookApp] Kernel started: 0de9cd0a-d165-4cd0-a104-455dc6a90c8f
+[I 18:27:49.528 NotebookApp] Adapting to protocol v5.1 for kernel 0de9cd0a-d165-4cd0-a104-455dc6a90c8f
+[I 18:29:48.546 NotebookApp] Saving file at /knn.ipynb
+[I 19:02:53.102 NotebookApp] Starting buffering for 0de9cd0a-d165-4cd0-a104-455dc6a90c8f:7709DA91D83949F287D66833B219F546
+[W 20:30:32.768 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180123182729 (172.23.11.251) 2.83ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 20:30:34.692 NotebookApp] Adapting to protocol v5.1 for kernel 0de9cd0a-d165-4cd0-a104-455dc6a90c8f
+[I 20:32:35.683 NotebookApp] Saving file at /knn.ipynb
+[I 20:40:35.292 NotebookApp] Saving file at /knn.ipynb
+[I 20:42:34.727 NotebookApp] Saving file at /knn.ipynb
+[I 21:06:35.792 NotebookApp] Saving file at /knn.ipynb
+[I 21:08:36.652 NotebookApp] Saving file at /knn.ipynb
+[I 21:10:36.926 NotebookApp] Saving file at /knn.ipynb
+[I 21:52:35.035 NotebookApp] Saving file at /knn.ipynb
+[I 21:56:40.176 NotebookApp] Saving file at /knn.ipynb
+[I 22:02:38.594 NotebookApp] Saving file at /knn.ipynb
+[I 22:10:35.120 NotebookApp] Saving file at /knn.ipynb
+[I 22:18:35.074 NotebookApp] Saving file at /knn.ipynb
+[I 22:24:35.570 NotebookApp] Saving file at /knn.ipynb
+[I 22:28:35.406 NotebookApp] Saving file at /knn.ipynb
+[I 22:30:35.940 NotebookApp] Saving file at /knn.ipynb
+[I 23:30:21.210 NotebookApp] Starting buffering for 0de9cd0a-d165-4cd0-a104-455dc6a90c8f:92DE92D4A94C4D6D8F6811E40E7EBAB6
+[I 11:12:01.888 NotebookApp] Adapting to protocol v5.1 for kernel 0de9cd0a-d165-4cd0-a104-455dc6a90c8f
+[I 11:12:01.890 NotebookApp] Restoring connection for 0de9cd0a-d165-4cd0-a104-455dc6a90c8f:92DE92D4A94C4D6D8F6811E40E7EBAB6
+[I 11:12:52.511 NotebookApp] Saving file at /knn.ipynb
+[I 11:14:55.904 NotebookApp] Saving file at /knn.ipynb
+[I 11:16:53.858 NotebookApp] Saving file at /knn.ipynb
+[I 11:19:15.417 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 0de9cd0a-d165-4cd0-a104-455dc6a90c8f restarted
+[I 11:19:16.047 NotebookApp] Saving file at /knn.ipynb
+[C 11:19:22.594 NotebookApp] received signal 15, stopping
+[I 11:19:22.596 NotebookApp] Shutting down 1 kernel
+[I 11:19:22.903 NotebookApp] Kernel shutdown: 0de9cd0a-d165-4cd0-a104-455dc6a90c8f
+[W 11:20:21.775 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 11:20:21.802 NotebookApp] Serving notebooks from local directory: /home/hmf/cs231n/assignment1
+[I 11:20:21.802 NotebookApp] 0 active kernels
+[I 11:20:21.802 NotebookApp] The Jupyter Notebook is running at:
+[I 11:20:21.802 NotebookApp] http://[all ip addresses on your system]:9999/
+[I 11:20:21.802 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(B)0[1;24r[m[?7h[?1h=[H[J[21B[0;7mGetting http://localhost:9999/tree[m[0;7mLooking up localhost:9999[m         [22;26H[0;7mMaking HTTP connection to localhost:9999[m[0;7mSending HTTP request.[m                   [22;22H[0;7mHTTP request sent; waiting for response.[m
+
+[24;1H[?1l>[I 11:20:21.844 NotebookApp] 302 GET /tree (::1) 3.73ms
+[W 11:20:30.702 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 13.01ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[W 11:20:35.001 NotebookApp] 404 GET /api/kernels/0de9cd0a-d165-4cd0-a104-455dc6a90c8f/channels?session_id=92DE92D4A94C4D6D8F6811E40E7EBAB6 (172.23.11.251): Kernel does not exist: 0de9cd0a-d165-4cd0-a104-455dc6a90c8f
+[W 11:20:35.004 NotebookApp] 404 GET /api/kernels/0de9cd0a-d165-4cd0-a104-455dc6a90c8f/channels?session_id=92DE92D4A94C4D6D8F6811E40E7EBAB6 (172.23.11.251) 26.43ms referer=None
+[I 11:20:36.020 NotebookApp] Kernel started: a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 11:20:37.101 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 11:22:36.393 NotebookApp] Saving file at /knn.ipynb
+[I 11:24:37.127 NotebookApp] Saving file at /knn.ipynb
+[I 11:26:36.350 NotebookApp] Saving file at /knn.ipynb
+[I 11:28:37.811 NotebookApp] Saving file at /knn.ipynb
+[I 11:30:43.095 NotebookApp] Saving file at /knn.ipynb
+[I 11:39:50.339 NotebookApp] Saving file at /knn.ipynb
+[I 12:18:06.889 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 12:18:36.456 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 12:18:36.457 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 12:34:25.133 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 12:36:06.244 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 12:36:06.245 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 13:42:50.660 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 15:55:13.724 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 15:55:13.725 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 15:56:38.585 NotebookApp] Saving file at /knn.ipynb
+[I 16:16:40.764 NotebookApp] Saving file at /knn.ipynb
+[I 17:02:38.763 NotebookApp] Saving file at /knn.ipynb
+[I 17:03:20.688 NotebookApp] Saving file at /knn.ipynb
+[I 17:33:58.205 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 19:55:18.379 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 19:55:18.380 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 19:56:08.918 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 19:57:03.317 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 19:57:03.318 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 19:58:42.775 NotebookApp] Saving file at /knn.ipynb
+[I 20:04:42.755 NotebookApp] Saving file at /knn.ipynb
+[I 20:06:43.767 NotebookApp] Saving file at /knn.ipynb
+[I 20:08:42.720 NotebookApp] Saving file at /knn.ipynb
+[I 20:10:42.771 NotebookApp] Saving file at /knn.ipynb
+[I 20:12:42.701 NotebookApp] Saving file at /knn.ipynb
+[I 20:14:46.954 NotebookApp] Saving file at /knn.ipynb
+[I 20:16:42.788 NotebookApp] Saving file at /knn.ipynb
+[I 20:18:42.852 NotebookApp] Saving file at /knn.ipynb
+[I 20:20:42.734 NotebookApp] Saving file at /knn.ipynb
+[I 20:22:42.775 NotebookApp] Saving file at /knn.ipynb
+[I 20:24:43.087 NotebookApp] Saving file at /knn.ipynb
+[I 20:26:42.756 NotebookApp] Saving file at /knn.ipynb
+[I 20:28:43.759 NotebookApp] Saving file at /knn.ipynb
+[I 20:48:45.080 NotebookApp] Saving file at /knn.ipynb
+[I 20:50:43.826 NotebookApp] Saving file at /knn.ipynb
+[I 20:52:42.783 NotebookApp] Saving file at /knn.ipynb
+[I 20:54:43.023 NotebookApp] Saving file at /knn.ipynb
+[I 20:56:42.816 NotebookApp] Saving file at /knn.ipynb
+[I 21:00:42.805 NotebookApp] Saving file at /knn.ipynb
+[I 21:06:44.380 NotebookApp] Saving file at /knn.ipynb
+[I 21:08:43.560 NotebookApp] Saving file at /knn.ipynb
+[I 21:10:42.848 NotebookApp] Saving file at /knn.ipynb
+[I 21:14:43.430 NotebookApp] Saving file at /knn.ipynb
+[I 21:16:47.685 NotebookApp] Saving file at /knn.ipynb
+[I 21:18:43.366 NotebookApp] Saving file at /knn.ipynb
+[I 21:20:42.958 NotebookApp] Saving file at /knn.ipynb
+[I 21:28:45.785 NotebookApp] Saving file at /knn.ipynb
+[I 21:30:43.241 NotebookApp] Saving file at /knn.ipynb
+[I 21:32:44.405 NotebookApp] Saving file at /knn.ipynb
+[I 21:34:43.071 NotebookApp] Saving file at /knn.ipynb
+[I 21:36:43.013 NotebookApp] Saving file at /knn.ipynb
+[I 21:38:44.208 NotebookApp] Saving file at /knn.ipynb
+[I 21:40:42.954 NotebookApp] Saving file at /knn.ipynb
+[I 21:42:42.973 NotebookApp] Saving file at /knn.ipynb
+[I 21:44:43.268 NotebookApp] Saving file at /knn.ipynb
+[I 21:45:52.044 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 10:18:25.810 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 10:18:25.811 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 10:19:03.123 NotebookApp] Saving file at /knn.ipynb
+[I 10:45:03.346 NotebookApp] Saving file at /knn.ipynb
+[I 10:47:04.722 NotebookApp] Saving file at /knn.ipynb
+[I 10:49:03.818 NotebookApp] Saving file at /knn.ipynb
+[I 10:53:04.031 NotebookApp] Saving file at /knn.ipynb
+[I 10:55:04.227 NotebookApp] Saving file at /knn.ipynb
+[I 10:57:12.676 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 10:57:48.957 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 10:57:48.958 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[I 11:09:05.018 NotebookApp] Saving file at /knn.ipynb
+[I 11:11:03.452 NotebookApp] Saving file at /knn.ipynb
+[I 11:13:03.772 NotebookApp] Saving file at /knn.ipynb
+[I 11:13:12.452 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:4E36AAF15C9A4F32880F6BC09D7C055C
+[W 11:13:18.147 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 2.31ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 11:13:22.393 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 11:15:23.317 NotebookApp] Saving file at /knn.ipynb
+[I 11:17:24.146 NotebookApp] Saving file at /knn.ipynb
+[I 11:19:24.991 NotebookApp] Saving file at /knn.ipynb
+[I 11:21:23.968 NotebookApp] Saving file at /knn.ipynb
+[I 11:23:24.872 NotebookApp] Saving file at /knn.ipynb
+[I 11:29:23.614 NotebookApp] Saving file at /knn.ipynb
+[I 11:31:24.851 NotebookApp] Saving file at /knn.ipynb
+[I 11:35:15.136 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:AC942855E1AC4C01824C6C7419CCB4BE
+[I 11:35:53.434 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 11:35:53.435 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:AC942855E1AC4C01824C6C7419CCB4BE
+[I 11:39:31.004 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:AC942855E1AC4C01824C6C7419CCB4BE
+[W 11:44:34.473 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 49.00ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 11:44:38.612 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 11:46:39.402 NotebookApp] Saving file at /knn.ipynb
+[I 12:26:40.946 NotebookApp] Saving file at /knn.ipynb
+[I 12:32:41.235 NotebookApp] Saving file at /knn.ipynb
+[I 12:34:39.021 NotebookApp] Saving file at /knn.ipynb
+[I 12:36:39.213 NotebookApp] Saving file at /knn.ipynb
+[I 12:38:39.748 NotebookApp] Saving file at /knn.ipynb
+[I 12:40:44.503 NotebookApp] Saving file at /knn.ipynb
+[I 12:42:40.720 NotebookApp] Saving file at /knn.ipynb
+[I 12:46:40.755 NotebookApp] Saving file at /knn.ipynb
+[I 12:48:42.806 NotebookApp] Saving file at /knn.ipynb
+[I 12:50:48.590 NotebookApp] Saving file at /knn.ipynb
+[I 12:53:09.918 NotebookApp] Saving file at /knn.ipynb
+[I 12:57:23.345 NotebookApp] Saving file at /knn.ipynb
+[I 13:05:56.390 NotebookApp] Saving file at /knn.ipynb
+[I 13:10:36.029 NotebookApp] Saving file at /knn.ipynb
+[I 13:20:42.459 NotebookApp] Saving file at /knn.ipynb
+[I 14:01:07.687 NotebookApp] Saving file at /knn.ipynb
+[I 14:21:18.194 NotebookApp] Saving file at /knn.ipynb
+[I 14:41:28.535 NotebookApp] Saving file at /knn.ipynb
+[I 14:41:50.383 NotebookApp] Saving file at /knn.ipynb
+[I 15:02:01.935 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:250A8C50647D4BE18119531F9E1234F5
+[I 15:10:03.191 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 15:10:03.197 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:250A8C50647D4BE18119531F9E1234F5
+[I 15:21:49.619 NotebookApp] Saving file at /knn.ipynb
+[I 15:41:59.178 NotebookApp] Saving file at /knn.ipynb
+[I 16:42:29.198 NotebookApp] Saving file at /knn.ipynb
+[I 17:02:38.459 NotebookApp] Saving file at /knn.ipynb
+[I 17:22:57.426 NotebookApp] Saving file at /knn.ipynb
+[I 17:42:59.257 NotebookApp] Saving file at /knn.ipynb
+[I 18:23:18.649 NotebookApp] Saving file at /knn.ipynb
+[I 18:43:28.717 NotebookApp] Saving file at /knn.ipynb
+[I 19:03:38.858 NotebookApp] Saving file at /knn.ipynb
+[I 20:29:53.369 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:250A8C50647D4BE18119531F9E1234F5
+[I 15:55:16.967 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 15:55:16.968 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:250A8C50647D4BE18119531F9E1234F5
+[W 16:00:11.938 NotebookApp] Notebook svm.ipynb is not trusted
+[W 16:00:12.284 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 16.51ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 16:00:14.419 NotebookApp] Kernel started: 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 16:00:18.110 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 16:02:14.762 NotebookApp] Saving file at /svm.ipynb
+[I 16:14:33.130 NotebookApp] Saving file at /knn.ipynb
+[I 16:21:31.948 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:58F048EA81634A718B211211B992BAD0
+[I 18:25:31.838 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:250A8C50647D4BE18119531F9E1234F5
+[I 20:33:03.844 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 20:33:03.845 NotebookApp] Restoring connection for a0573ec9-f713-4b36-af98-04ebc1eda54a:250A8C50647D4BE18119531F9E1234F5
+[I 20:39:07.261 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:250A8C50647D4BE18119531F9E1234F5
+[W 21:46:07.176 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.252) 2.17ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 21:46:08.344 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 21:48:08.474 NotebookApp] Saving file at /svm.ipynb
+[W 21:53:09.020 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.252) 3.48ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 21:53:13.267 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 23:05:08.722 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:F12C654056B54C1FB0133482E1E8DED8
+[I 23:05:25.680 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:399078B609184946AF3D82BAEAF5E56D
+[W 14:23:17.889 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 2.89ms referer=http://172.23.27.188:9999/notebooks/knn.ipynb
+[I 14:23:19.976 NotebookApp] Adapting to protocol v5.1 for kernel a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 14:24:00.386 NotebookApp] Starting buffering for a0573ec9-f713-4b36-af98-04ebc1eda54a:BBC0CC55AC284E0EA238B4F086A87150
+[W 14:24:04.516 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 3.21ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 14:24:05.947 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 14:32:08.169 NotebookApp] Saving file at /svm.ipynb
+[I 14:34:06.424 NotebookApp] Saving file at /svm.ipynb
+[I 15:14:06.976 NotebookApp] Saving file at /svm.ipynb
+[I 17:48:52.518 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:DCCDBE58C969463B81D19C96D501FCA0
+[I 20:13:27.323 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 20:13:27.325 NotebookApp] Restoring connection for 0634fadb-51a3-4d92-b58c-84198476be0e:DCCDBE58C969463B81D19C96D501FCA0
+[I 22:37:13.517 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:DCCDBE58C969463B81D19C96D501FCA0
+[I 09:08:47.646 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 09:08:47.648 NotebookApp] Restoring connection for 0634fadb-51a3-4d92-b58c-84198476be0e:DCCDBE58C969463B81D19C96D501FCA0
+[I 09:12:07.457 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:DCCDBE58C969463B81D19C96D501FCA0
+[I 09:15:07.623 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 09:15:07.624 NotebookApp] Restoring connection for 0634fadb-51a3-4d92-b58c-84198476be0e:DCCDBE58C969463B81D19C96D501FCA0
+[I 09:22:23.825 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:DCCDBE58C969463B81D19C96D501FCA0
+[I 15:43:40.450 NotebookApp] 302 GET /tree? (172.23.11.251) 15.29ms
+[I 15:45:39.355 NotebookApp] 302 POST /login?next=%2Ftree%3F (172.23.11.251) 11.46ms
+[W 15:47:41.160 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 3.34ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 15:47:43.121 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 16:58:11.358 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:C5CB81379D644DFC8B48441201653AB2
+[I 16:58:44.701 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 16:58:44.703 NotebookApp] Restoring connection for 0634fadb-51a3-4d92-b58c-84198476be0e:C5CB81379D644DFC8B48441201653AB2
+[I 17:18:37.116 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:C5CB81379D644DFC8B48441201653AB2
+[I 17:18:41.879 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 17:18:41.880 NotebookApp] Restoring connection for 0634fadb-51a3-4d92-b58c-84198476be0e:C5CB81379D644DFC8B48441201653AB2
+[I 17:28:37.715 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:C5CB81379D644DFC8B48441201653AB2
+[W 21:41:30.222 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 10.48ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 21:41:33.419 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 21:49:33.425 NotebookApp] Saving file at /svm.ipynb
+[I 21:53:34.378 NotebookApp] Saving file at /svm.ipynb
+[I 21:55:33.497 NotebookApp] Saving file at /svm.ipynb
+[I 21:57:33.425 NotebookApp] Saving file at /svm.ipynb
+[I 22:07:35.242 NotebookApp] Saving file at /svm.ipynb
+[I 22:13:33.492 NotebookApp] Saving file at /svm.ipynb
+[I 22:15:35.298 NotebookApp] Saving file at /svm.ipynb
+[I 22:19:33.479 NotebookApp] Saving file at /svm.ipynb
+[I 22:23:35.583 NotebookApp] Saving file at /svm.ipynb
+[I 22:27:33.471 NotebookApp] Saving file at /svm.ipynb
+[I 22:41:33.645 NotebookApp] Saving file at /svm.ipynb
+[I 22:43:33.564 NotebookApp] Saving file at /svm.ipynb
+[I 22:45:35.573 NotebookApp] Saving file at /svm.ipynb
+[I 23:11:33.542 NotebookApp] Saving file at /svm.ipynb
+[I 23:21:33.618 NotebookApp] Saving file at /svm.ipynb
+[I 23:25:34.999 NotebookApp] Saving file at /svm.ipynb
+[I 23:27:33.589 NotebookApp] Saving file at /svm.ipynb
+[I 23:29:33.524 NotebookApp] Saving file at /svm.ipynb
+[I 23:37:36.213 NotebookApp] Saving file at /svm.ipynb
+[I 23:39:34.092 NotebookApp] Saving file at /svm.ipynb
+[I 23:49:35.886 NotebookApp] Saving file at /svm.ipynb
+[I 23:51:33.562 NotebookApp] Saving file at /svm.ipynb
+[I 23:53:33.609 NotebookApp] Saving file at /svm.ipynb
+[I 23:55:35.089 NotebookApp] Saving file at /svm.ipynb
+[I 23:57:33.677 NotebookApp] Saving file at /svm.ipynb
+[I 00:04:54.651 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:E92032AA1B1E4A93858A5AC588BFD295
+[I 11:02:23.738 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 11:02:23.740 NotebookApp] Restoring connection for 0634fadb-51a3-4d92-b58c-84198476be0e:E92032AA1B1E4A93858A5AC588BFD295
+[I 11:03:50.154 NotebookApp] Saving file at /svm.ipynb
+[I 11:05:50.178 NotebookApp] Saving file at /svm.ipynb
+[I 11:07:50.343 NotebookApp] Saving file at /svm.ipynb
+[I 11:27:50.246 NotebookApp] Saving file at /svm.ipynb
+[I 11:33:50.119 NotebookApp] Saving file at /svm.ipynb
+[I 11:35:50.093 NotebookApp] Saving file at /svm.ipynb
+[I 11:37:50.268 NotebookApp] Saving file at /svm.ipynb
+[I 11:41:50.130 NotebookApp] Saving file at /svm.ipynb
+[I 11:43:50.816 NotebookApp] Saving file at /svm.ipynb
+[I 11:45:50.120 NotebookApp] Saving file at /svm.ipynb
+[I 11:47:50.051 NotebookApp] Saving file at /svm.ipynb
+[I 11:49:50.119 NotebookApp] Saving file at /svm.ipynb
+[I 11:51:50.094 NotebookApp] Saving file at /svm.ipynb
+[I 11:55:50.776 NotebookApp] Saving file at /svm.ipynb
+[I 11:57:50.126 NotebookApp] Saving file at /svm.ipynb
+[I 12:01:50.043 NotebookApp] Saving file at /svm.ipynb
+[I 12:03:50.116 NotebookApp] Saving file at /svm.ipynb
+[I 13:43:54.633 NotebookApp] Saving file at /svm.ipynb
+[I 13:45:53.500 NotebookApp] Saving file at /svm.ipynb
+[I 13:55:43.325 NotebookApp] Saving file at /svm.ipynb
+[I 14:15:10.208 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:E92032AA1B1E4A93858A5AC588BFD295
+[I 14:15:31.980 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 14:15:31.981 NotebookApp] Restoring connection for 0634fadb-51a3-4d92-b58c-84198476be0e:E92032AA1B1E4A93858A5AC588BFD295
+[I 14:15:51.001 NotebookApp] Saving file at /svm.ipynb
+[I 14:33:46.315 NotebookApp] Saving file at /svm.ipynb
+[I 14:52:44.041 NotebookApp] Saving file at /svm.ipynb
+[I 15:11:18.662 NotebookApp] Saving file at /svm.ipynb
+[I 15:11:44.647 NotebookApp] Saving file at /svm.ipynb
+[I 15:30:45.290 NotebookApp] Saving file at /svm.ipynb
+[I 16:55:28.492 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:E92032AA1B1E4A93858A5AC588BFD295
+[I 16:55:29.616 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 16:55:29.617 NotebookApp] Restoring connection for 0634fadb-51a3-4d92-b58c-84198476be0e:E92032AA1B1E4A93858A5AC588BFD295
+[I 17:07:31.396 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:E92032AA1B1E4A93858A5AC588BFD295
+[I 20:21:47.841 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 20:21:47.842 NotebookApp] Restoring connection for 0634fadb-51a3-4d92-b58c-84198476be0e:E92032AA1B1E4A93858A5AC588BFD295
+[I 20:39:22.317 NotebookApp] Saving file at /svm.ipynb
+[I 21:17:22.394 NotebookApp] Saving file at /svm.ipynb
+[I 21:36:22.566 NotebookApp] Saving file at /svm.ipynb
+[W 21:36:24.434 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.252) 18.38ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 21:36:26.058 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 21:43:34.568 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:E92032AA1B1E4A93858A5AC588BFD295
+[I 11:56:12.582 NotebookApp] 302 GET / (172.23.11.251) 0.97ms
+[I 11:56:12.594 NotebookApp] 302 GET /tree? (172.23.11.251) 3.98ms
+[W 11:56:24.081 NotebookApp] 401 POST /login?next=%2Ftree%3F (172.23.11.251) 26.21ms referer=http://172.23.27.188:9999/login?next=%2Ftree%3F
+[I 11:56:35.332 NotebookApp] 302 POST /login?next=%2Ftree%3F (172.23.11.251) 1.99ms
+[W 11:56:35.862 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 2.81ms referer=http://172.23.27.188:9999/tree?
+[W 11:56:35.867 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 3.54ms referer=http://172.23.27.188:9999/tree?
+[I 14:18:59.969 NotebookApp] 302 GET / (172.23.11.251) 0.94ms
+[W 14:19:00.679 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 1.81ms referer=http://172.23.27.188:9999/tree?
+[W 14:19:00.694 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 2.35ms referer=http://172.23.27.188:9999/tree?
+[W 14:19:04.149 NotebookApp] Notebook features.ipynb is not trusted
+[W 14:19:04.176 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 3.45ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 14:19:05.244 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 2.32ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 14:19:05.274 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 3.47ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 14:19:05.402 NotebookApp] Kernel started: 31cfe236-22e2-473d-9994-f8e0c572d4f6
+[W 14:19:05.483 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:19:05.493 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=5BADE4342B514D12905A727EB9B404EC (172.23.11.251) 22.39ms referer=None
+[W 14:19:06.520 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:19:06.522 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=5BADE4342B514D12905A727EB9B404EC (172.23.11.251) 4.51ms referer=None
+[W 14:19:08.595 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:19:08.597 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=5BADE4342B514D12905A727EB9B404EC (172.23.11.251) 4.18ms referer=None
+[W 14:19:12.629 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:19:12.632 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=5BADE4342B514D12905A727EB9B404EC (172.23.11.251) 4.94ms referer=None
+[W 14:19:20.664 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:19:20.666 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=5BADE4342B514D12905A727EB9B404EC (172.23.11.251) 4.86ms referer=None
+[W 14:19:36.692 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:19:36.693 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=5BADE4342B514D12905A727EB9B404EC (172.23.11.251) 3.72ms referer=None
+[W 14:20:08.731 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:20:08.734 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=5BADE4342B514D12905A727EB9B404EC (172.23.11.251) 5.14ms referer=None
+[I 14:20:48.835 NotebookApp] Saving file at /features.ipynb
+[W 14:20:48.953 NotebookApp] Trusting notebook /features.ipynb
+[W 14:20:49.542 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 2.39ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 14:20:49.546 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 2.50ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 14:20:49.558 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 3.06ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 14:20:50.398 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:20:50.400 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=CF498D8C7A094C2F8758FEAF73CA7862 (172.23.11.251) 5.59ms referer=None
+[W 14:20:51.442 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:20:51.447 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=CF498D8C7A094C2F8758FEAF73CA7862 (172.23.11.251) 9.18ms referer=None
+[W 14:20:53.483 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:20:53.486 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=CF498D8C7A094C2F8758FEAF73CA7862 (172.23.11.251) 5.18ms referer=None
+[W 14:20:57.521 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:20:57.524 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=CF498D8C7A094C2F8758FEAF73CA7862 (172.23.11.251) 5.76ms referer=None
+[W 14:21:05.577 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:21:05.579 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=CF498D8C7A094C2F8758FEAF73CA7862 (172.23.11.251) 5.49ms referer=None
+[W 14:21:21.611 NotebookApp] Couldn't authenticate WebSocket connection
+[W 14:21:21.613 NotebookApp] 403 GET /api/kernels/31cfe236-22e2-473d-9994-f8e0c572d4f6/channels?session_id=CF498D8C7A094C2F8758FEAF73CA7862 (172.23.11.251) 4.13ms referer=None
+[I 14:21:38.550 NotebookApp] 302 GET /notebooks/features.ipynb (172.23.11.251) 1.23ms
+[I 14:21:43.857 NotebookApp] 302 POST /login?next=%2Fnotebooks%2Ffeatures.ipynb (172.23.11.251) 2.13ms
+[W 14:21:45.053 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 2.99ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 14:21:45.062 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 2.50ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 14:21:45.100 NotebookApp] Adapting to protocol v5.1 for kernel 31cfe236-22e2-473d-9994-f8e0c572d4f6
+[W 14:21:45.136 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 2.88ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 14:21:53.652 NotebookApp] Adapting to protocol v5.1 for kernel 31cfe236-22e2-473d-9994-f8e0c572d4f6
+[I 14:22:50.664 NotebookApp] Saving file at /features.ipynb
+[I 14:28:59.559 NotebookApp] 302 GET /login?next=%2Fnotebooks%2Ffeatures.ipynb (172.23.11.251) 1.01ms
+[W 14:29:00.743 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 3.06ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 14:29:00.759 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 2.29ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 14:29:00.778 NotebookApp] Adapting to protocol v5.1 for kernel 31cfe236-22e2-473d-9994-f8e0c572d4f6
+[W 14:29:00.823 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 2.30ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 14:29:07.459 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 3.53ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[W 14:29:07.466 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 2.96ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 14:29:07.500 NotebookApp] Adapting to protocol v5.1 for kernel 31cfe236-22e2-473d-9994-f8e0c572d4f6
+[W 14:29:07.550 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 3.34ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 14:29:12.071 NotebookApp] 302 GET /notebooks/ (172.23.11.251) 1.55ms
+[W 14:29:12.362 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 3.22ms referer=http://172.23.27.188:9999/tree
+[W 14:29:12.368 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 2.90ms referer=http://172.23.27.188:9999/tree
+[W 14:29:30.162 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 3.62ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[W 14:29:30.170 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 3.73ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[W 14:29:30.176 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 3.13ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 14:29:31.786 NotebookApp] Adapting to protocol v5.1 for kernel 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 14:29:49.010 NotebookApp] 302 GET /notebooks/ (172.23.11.251) 1.78ms
+[I 14:29:49.050 NotebookApp] Starting buffering for 0634fadb-51a3-4d92-b58c-84198476be0e:6358689A15544D68BEA84F821D44BB79
+[W 14:29:49.300 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 2.47ms referer=http://172.23.27.188:9999/tree
+[W 14:29:49.303 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 1.93ms referer=http://172.23.27.188:9999/tree
+[W 14:29:59.772 NotebookApp] Notebook softmax.ipynb is not trusted
+[W 14:29:59.783 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 2.46ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:29:59.785 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 1.93ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:29:59.796 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 2.72ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 14:30:00.519 NotebookApp] Kernel started: acf2e703-e70a-4c81-89fc-107de6ef3bc5
+[I 14:30:05.442 NotebookApp] Adapting to protocol v5.1 for kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5
+[I 14:32:00.511 NotebookApp] Saving file at /softmax.ipynb
+[I 14:37:48.923 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+[I 14:38:00.814 NotebookApp] Saving file at /softmax.ipynb
+[W 14:38:07.658 NotebookApp] Trusting notebook /softmax.ipynb
+[I 14:38:07.702 NotebookApp] Starting buffering for acf2e703-e70a-4c81-89fc-107de6ef3bc5:E8460092A2A44114AB992357A12022A4
+[W 14:38:08.529 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 9.26ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:38:08.547 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 11.53ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:38:08.574 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 21.05ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 14:38:09.253 NotebookApp] Adapting to protocol v5.1 for kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5
+[I 14:38:22.857 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+[I 14:38:56.132 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+[I 14:40:09.245 NotebookApp] Saving file at /softmax.ipynb
+[W 14:41:09.230 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 23.25ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:41:09.238 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 3.21ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:41:09.242 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 2.71ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 14:41:09.899 NotebookApp] Adapting to protocol v5.1 for kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5
+[I 14:41:26.303 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+[W 14:41:39.459 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 17.16ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:41:39.463 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 2.63ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:41:39.469 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 2.01ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 14:41:40.146 NotebookApp] Adapting to protocol v5.1 for kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5
+[W 14:41:47.714 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 3.12ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:41:47.718 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 1.92ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:41:47.735 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 2.20ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 14:41:48.417 NotebookApp] Adapting to protocol v5.1 for kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5
+[W 14:42:05.154 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180124112021 (172.23.11.251) 2.17ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:42:05.160 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180124112021 (172.23.11.251) 2.22ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 14:42:05.179 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180124112021 (172.23.11.251) 2.97ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 14:42:05.862 NotebookApp] Adapting to protocol v5.1 for kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5
+[I 14:42:17.532 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+[I 14:43:09.980 NotebookApp] Saving file at /softmax.ipynb
+[I 14:44:29.656 NotebookApp] Saving file at /softmax.ipynb
+[I 14:45:08.645 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+[I 14:45:23.841 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+[I 14:46:23.910 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+[I 14:48:30.101 NotebookApp] Saving file at /softmax.ipynb
+[I 14:50:08.395 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 31cfe236-22e2-473d-9994-f8e0c572d4f6 restarted
+[I 14:50:14.996 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+WARNING:root:kernel acf2e703-e70a-4c81-89fc-107de6ef3bc5 restarted
+[I 14:50:23.376 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[C 14:50:26.662 NotebookApp] received signal 15, stopping
+[I 14:50:26.832 NotebookApp] Shutting down 4 kernels
+[I 14:50:31.183 NotebookApp] Kernel shutdown: a0573ec9-f713-4b36-af98-04ebc1eda54a
+[I 14:50:31.216 NotebookApp] Kernel shutdown: 0634fadb-51a3-4d92-b58c-84198476be0e
+[I 14:50:31.221 NotebookApp] Kernel shutdown: 31cfe236-22e2-473d-9994-f8e0c572d4f6
+[I 14:50:31.221 NotebookApp] Kernel shutdown: acf2e703-e70a-4c81-89fc-107de6ef3bc5
+[W 15:00:31.377 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 15:00:31.390 NotebookApp] Serving notebooks from local directory: /home/hmf/cs231n/assignment1
+[I 15:00:31.391 NotebookApp] 0 active kernels
+[I 15:00:31.391 NotebookApp] The Jupyter Notebook is running at:
+[I 15:00:31.391 NotebookApp] http://[all ip addresses on your system]:9999/
+[I 15:00:31.391 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(B)0[1;24r[m[?7h[?1h=[H[J[21B[0;7mGetting http://localhost:9999/tree[m[0;7mLooking up localhost:9999[m         [22;26H[0;7mMaking HTTP connection to localhost:9999[m[0;7mSending HTTP request.[m                   [22;22H[0;7mHTTP request sent; waiting for response.[m
+
+[24;1H[?1l>[I 15:00:31.532 NotebookApp] 302 GET /tree (::1) 5.42ms
+[W 15:01:15.084 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180211150030 (172.23.11.251) 21.80ms referer=http://172.23.27.188:9999/tree
+[W 15:01:15.094 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180211150030 (172.23.11.251) 2.78ms referer=http://172.23.27.188:9999/tree
+[W 15:01:20.850 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211150030 (172.23.11.251) 55.34ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 15:01:20.853 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180211150030 (172.23.11.251) 2.24ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 15:01:20.867 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180211150030 (172.23.11.251) 2.19ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 15:01:21.746 NotebookApp] Kernel started: 954513a4-7ab8-4c4c-96c5-bb0cb765f317
+[I 15:01:22.764 NotebookApp] Adapting to protocol v5.1 for kernel 954513a4-7ab8-4c4c-96c5-bb0cb765f317
+[I 15:03:21.684 NotebookApp] Saving file at /softmax.ipynb
+[I 16:04:05.746 NotebookApp] Starting buffering for 954513a4-7ab8-4c4c-96c5-bb0cb765f317:DC9CE89D089E41D784E85346E70889AC
+[W 17:16:19.843 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:16:19.847 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=DC9CE89D089E41D784E85346E70889AC (172.23.11.251) 6.79ms referer=None
+[W 17:16:28.340 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:16:28.343 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=DC9CE89D089E41D784E85346E70889AC (172.23.11.251) 5.64ms referer=None
+[W 17:16:33.241 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180211150030 (172.23.11.251) 2.32ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 17:16:33.901 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180211150030 (172.23.11.251) 2.82ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 17:16:33.965 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211150030 (172.23.11.251) 2.68ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 17:16:34.051 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:16:34.055 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=2E85E17DDBB14FC091426FA0319660DF (172.23.11.251) 8.46ms referer=None
+[W 17:16:35.099 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:16:35.101 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=2E85E17DDBB14FC091426FA0319660DF (172.23.11.251) 5.55ms referer=None
+[W 17:16:37.170 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:16:37.172 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=2E85E17DDBB14FC091426FA0319660DF (172.23.11.251) 4.76ms referer=None
+[W 17:16:41.211 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:16:41.213 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=2E85E17DDBB14FC091426FA0319660DF (172.23.11.251) 4.69ms referer=None
+[W 17:16:49.239 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:16:49.241 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=2E85E17DDBB14FC091426FA0319660DF (172.23.11.251) 4.83ms referer=None
+[W 17:17:05.322 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:17:05.324 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=2E85E17DDBB14FC091426FA0319660DF (172.23.11.251) 4.46ms referer=None
+[W 17:17:07.700 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180211150030 (172.23.11.251) 2.55ms referer=http://172.23.27.188:9999/tree
+[W 17:17:07.704 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180211150030 (172.23.11.251) 1.72ms referer=http://172.23.27.188:9999/tree
+[W 17:17:12.122 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180211150030 (172.23.11.251) 2.06ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 17:17:12.125 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211150030 (172.23.11.251) 1.81ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 17:17:12.144 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180211150030 (172.23.11.251) 2.01ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 17:17:12.812 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:17:12.814 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=E611161191584B068F4232AB78EDB8BC (172.23.11.251) 5.29ms referer=None
+[W 17:17:13.840 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:17:13.843 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=E611161191584B068F4232AB78EDB8BC (172.23.11.251) 5.32ms referer=None
+[W 17:17:15.903 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:17:15.908 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=E611161191584B068F4232AB78EDB8BC (172.23.11.251) 8.11ms referer=None
+[W 17:17:19.943 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:17:19.945 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=E611161191584B068F4232AB78EDB8BC (172.23.11.251) 5.19ms referer=None
+[W 17:17:28.034 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:17:28.037 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=E611161191584B068F4232AB78EDB8BC (172.23.11.251) 5.05ms referer=None
+[W 17:17:37.399 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:17:37.401 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=2E85E17DDBB14FC091426FA0319660DF (172.23.11.251) 4.24ms referer=None
+[W 17:17:44.166 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:17:44.168 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=E611161191584B068F4232AB78EDB8BC (172.23.11.251) 4.71ms referer=None
+[W 17:18:15.609 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211150030 (172.23.11.251) 2.90ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[W 17:18:15.612 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180211150030 (172.23.11.251) 2.20ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[W 17:18:15.615 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180211150030 (172.23.11.251) 2.13ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 17:18:17.228 NotebookApp] Kernel started: 1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20
+[W 17:18:17.254 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:18:17.258 NotebookApp] 403 GET /api/kernels/1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20/channels?session_id=99A207B5A93649058AD9A4E08BD94020 (172.23.11.251) 7.47ms referer=None
+[W 17:18:18.294 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:18:18.296 NotebookApp] 403 GET /api/kernels/1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20/channels?session_id=99A207B5A93649058AD9A4E08BD94020 (172.23.11.251) 5.01ms referer=None
+[W 17:18:20.343 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:18:20.344 NotebookApp] 403 GET /api/kernels/1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20/channels?session_id=99A207B5A93649058AD9A4E08BD94020 (172.23.11.251) 4.02ms referer=None
+[W 17:18:24.379 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:18:24.382 NotebookApp] 403 GET /api/kernels/1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20/channels?session_id=99A207B5A93649058AD9A4E08BD94020 (172.23.11.251) 4.61ms referer=None
+[W 17:18:32.428 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:18:32.431 NotebookApp] 403 GET /api/kernels/1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20/channels?session_id=99A207B5A93649058AD9A4E08BD94020 (172.23.11.251) 4.92ms referer=None
+[I 17:18:34.256 NotebookApp] Saving file at /softmax.ipynb
+[W 17:18:41.561 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:18:41.563 NotebookApp] 403 GET /api/kernels/954513a4-7ab8-4c4c-96c5-bb0cb765f317/channels?session_id=2E85E17DDBB14FC091426FA0319660DF (172.23.11.251) 5.94ms referer=None
+[W 17:18:48.486 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:18:48.488 NotebookApp] 403 GET /api/kernels/1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20/channels?session_id=99A207B5A93649058AD9A4E08BD94020 (172.23.11.251) 3.86ms referer=None
+[W 17:19:20.524 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:19:20.526 NotebookApp] 403 GET /api/kernels/1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20/channels?session_id=99A207B5A93649058AD9A4E08BD94020 (172.23.11.251) 4.42ms referer=None
+[W 17:20:24.558 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:20:24.561 NotebookApp] 403 GET /api/kernels/1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20/channels?session_id=99A207B5A93649058AD9A4E08BD94020 (172.23.11.251) 5.26ms referer=None
+[W 17:23:02.397 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:23:02.399 NotebookApp] 403 GET /api/kernels/acf2e703-e70a-4c81-89fc-107de6ef3bc5/channels?session_id=FC47BD4AC8D244B983E10D3307FECDD3 (172.23.11.251) 4.84ms referer=None
+[C 17:24:01.581 NotebookApp] received signal 15, stopping
+[I 17:24:01.582 NotebookApp] Shutting down 2 kernels
+[I 17:24:02.086 NotebookApp] Kernel shutdown: 954513a4-7ab8-4c4c-96c5-bb0cb765f317
+[I 17:24:02.087 NotebookApp] Kernel shutdown: 1e5b7cb0-57c8-4f2a-8167-6f4793bf9a20
+[W 17:28:13.651 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[C 17:28:13.673 NotebookApp] Running as root is not recommended. Use --allow-root to bypass.
+[W 17:32:38.163 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 17:32:38.177 NotebookApp] Serving notebooks from local directory: /home/hmf/cs231n/assignment1
+[I 17:32:38.177 NotebookApp] 0 active kernels
+[I 17:32:38.177 NotebookApp] The Jupyter Notebook is running at:
+[I 17:32:38.177 NotebookApp] http://[all ip addresses on your system]:9999/
+[I 17:32:38.177 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(B)0[1;24r[m[?7h[?1h=[H[J[21B[0;7mGetting http://localhost:9999/tree[m[0;7mLooking up localhost:9999[m         [22;26H[0;7mMaking HTTP connection to localhost:9999[m[0;7mSending HTTP request.[m                   [22;22H[0;7mHTTP request sent; waiting for response.[m
+
+[24;1H[?1l>[I 17:32:38.200 NotebookApp] 302 GET /tree (::1) 3.12ms
+[W 17:32:38.228 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:32:38.289 NotebookApp] 403 GET /api/kernels/cf13f617-93ef-4840-bd21-8442eccb6e05/channels?session_id=136C90DC073D4C8895A96F3525F95DD5 (172.23.11.251) 66.47ms referer=None
+[I 17:32:38.312 NotebookApp] Saving file at /svm.ipynb
+[W 17:32:47.283 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:32:47.288 NotebookApp] 403 GET /api/kernels/cf13f617-93ef-4840-bd21-8442eccb6e05/channels?session_id=136C90DC073D4C8895A96F3525F95DD5 (172.23.11.251) 9.51ms referer=None
+[W 17:32:49.605 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:32:49.609 NotebookApp] 403 GET /api/kernels/cf13f617-93ef-4840-bd21-8442eccb6e05/channels?session_id=136C90DC073D4C8895A96F3525F95DD5 (172.23.11.251) 7.44ms referer=None
+[W 17:32:52.530 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:32:52.533 NotebookApp] 403 GET /api/kernels/f38a8a30-eed8-4861-8205-8a68d0b6a25d/channels?session_id=723AF54326734625988074291BDBF2DE (172.23.11.251) 5.30ms referer=None
+[W 17:33:04.167 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180211173237 (172.23.11.251) 7.04ms referer=http://172.23.27.188:9999/tree?
+[W 17:33:04.228 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180211173237 (172.23.11.251) 2.65ms referer=http://172.23.27.188:9999/tree?
+[W 17:33:08.019 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 5.34ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 17:33:08.025 NotebookApp] 404 GET /static/components/moment/locale/zh-cn.js?v=20180211173237 (172.23.11.251) 2.31ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[W 17:33:08.029 NotebookApp] 404 GET /i18n/zh-CN/LC_MESSAGES/nbjs.json?v=20180211173237 (172.23.11.251) 3.09ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 17:33:08.730 NotebookApp] Kernel started: 64b79e7f-aed4-422c-a5ca-9f04999d0a0c
+[W 17:33:08.763 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:33:08.766 NotebookApp] 403 GET /api/kernels/64b79e7f-aed4-422c-a5ca-9f04999d0a0c/channels?session_id=DD97172A3DB54DA7B52C58820AE8FBBF (172.23.11.251) 6.72ms referer=None
+[W 17:33:09.810 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:33:09.812 NotebookApp] 403 GET /api/kernels/64b79e7f-aed4-422c-a5ca-9f04999d0a0c/channels?session_id=DD97172A3DB54DA7B52C58820AE8FBBF (172.23.11.251) 4.43ms referer=None
+[W 17:33:11.866 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:33:11.869 NotebookApp] 403 GET /api/kernels/64b79e7f-aed4-422c-a5ca-9f04999d0a0c/channels?session_id=DD97172A3DB54DA7B52C58820AE8FBBF (172.23.11.251) 6.31ms referer=None
+[W 17:33:15.909 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:33:15.911 NotebookApp] 403 GET /api/kernels/64b79e7f-aed4-422c-a5ca-9f04999d0a0c/channels?session_id=DD97172A3DB54DA7B52C58820AE8FBBF (172.23.11.251) 4.63ms referer=None
+[W 17:33:23.948 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:33:23.950 NotebookApp] 403 GET /api/kernels/64b79e7f-aed4-422c-a5ca-9f04999d0a0c/channels?session_id=DD97172A3DB54DA7B52C58820AE8FBBF (172.23.11.251) 5.45ms referer=None
+[W 17:33:40.012 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:33:40.015 NotebookApp] 403 GET /api/kernels/64b79e7f-aed4-422c-a5ca-9f04999d0a0c/channels?session_id=DD97172A3DB54DA7B52C58820AE8FBBF (172.23.11.251) 6.33ms referer=None
+[W 17:34:12.068 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:34:12.070 NotebookApp] 403 GET /api/kernels/64b79e7f-aed4-422c-a5ca-9f04999d0a0c/channels?session_id=DD97172A3DB54DA7B52C58820AE8FBBF (172.23.11.251) 6.52ms referer=None
+[W 17:35:16.112 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:35:16.115 NotebookApp] 403 GET /api/kernels/64b79e7f-aed4-422c-a5ca-9f04999d0a0c/channels?session_id=DD97172A3DB54DA7B52C58820AE8FBBF (172.23.11.251) 5.97ms referer=None
+[W 22:22:37.300 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.252) 3.42ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 22:22:37.955 NotebookApp] Adapting to protocol v5.1 for kernel 64b79e7f-aed4-422c-a5ca-9f04999d0a0c
+[I 22:24:38.088 NotebookApp] Saving file at /softmax.ipynb
+[W 22:24:58.939 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.252) 2.07ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 22:25:00.405 NotebookApp] Kernel started: 916f8cd3-5995-4d4a-a63e-40c89461d724
+[I 22:25:01.519 NotebookApp] Adapting to protocol v5.1 for kernel 916f8cd3-5995-4d4a-a63e-40c89461d724
+[I 22:26:16.621 NotebookApp] Starting buffering for 916f8cd3-5995-4d4a-a63e-40c89461d724:D26163BA73AA46B49374069FA503F2C4
+[I 22:26:22.404 NotebookApp] Starting buffering for 64b79e7f-aed4-422c-a5ca-9f04999d0a0c:09FB4C5019754A578EC2A0B15D675757
+[I 09:51:16.741 NotebookApp] Adapting to protocol v5.1 for kernel 916f8cd3-5995-4d4a-a63e-40c89461d724
+[I 09:51:16.742 NotebookApp] Restoring connection for 916f8cd3-5995-4d4a-a63e-40c89461d724:D26163BA73AA46B49374069FA503F2C4
+[I 09:51:19.656 NotebookApp] Saving file at /svm.ipynb
+[W 09:57:10.943 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 2.75ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 09:57:11.885 NotebookApp] Adapting to protocol v5.1 for kernel 64b79e7f-aed4-422c-a5ca-9f04999d0a0c
+[I 09:57:15.674 NotebookApp] Starting buffering for 916f8cd3-5995-4d4a-a63e-40c89461d724:D26163BA73AA46B49374069FA503F2C4
+[I 10:51:11.570 NotebookApp] Saving file at /softmax.ipynb
+[I 10:53:11.562 NotebookApp] Saving file at /softmax.ipynb
+[I 10:55:11.677 NotebookApp] Saving file at /softmax.ipynb
+[I 16:53:12.548 NotebookApp] Saving file at /softmax.ipynb
+[I 16:55:12.462 NotebookApp] Saving file at /softmax.ipynb
+[I 16:57:12.638 NotebookApp] Saving file at /softmax.ipynb
+[I 16:59:12.617 NotebookApp] Saving file at /softmax.ipynb
+[I 17:01:12.349 NotebookApp] Saving file at /softmax.ipynb
+[I 17:03:12.386 NotebookApp] Saving file at /softmax.ipynb
+[I 17:05:12.352 NotebookApp] Saving file at /softmax.ipynb
+[I 17:07:12.303 NotebookApp] Saving file at /softmax.ipynb
+[I 17:11:12.312 NotebookApp] Saving file at /softmax.ipynb
+[I 17:15:12.443 NotebookApp] Saving file at /softmax.ipynb
+[I 18:27:13.032 NotebookApp] Saving file at /softmax.ipynb
+[I 18:35:12.479 NotebookApp] Saving file at /softmax.ipynb
+[I 18:43:12.463 NotebookApp] Saving file at /softmax.ipynb
+[I 18:45:12.598 NotebookApp] Saving file at /softmax.ipynb
+[I 19:15:12.615 NotebookApp] Saving file at /softmax.ipynb
+[I 19:17:12.617 NotebookApp] Saving file at /softmax.ipynb
+[I 19:21:12.638 NotebookApp] Saving file at /softmax.ipynb
+[I 19:23:13.504 NotebookApp] Saving file at /softmax.ipynb
+[I 19:35:12.682 NotebookApp] Saving file at /softmax.ipynb
+[I 19:39:12.798 NotebookApp] Saving file at /softmax.ipynb
+[I 19:41:13.604 NotebookApp] Saving file at /softmax.ipynb
+[I 19:43:12.583 NotebookApp] Saving file at /softmax.ipynb
+[I 19:45:12.651 NotebookApp] Saving file at /softmax.ipynb
+[I 19:47:12.618 NotebookApp] Saving file at /softmax.ipynb
+[I 19:49:12.635 NotebookApp] Saving file at /softmax.ipynb
+[I 19:51:12.687 NotebookApp] Saving file at /softmax.ipynb
+[I 19:57:29.356 NotebookApp] Starting buffering for 64b79e7f-aed4-422c-a5ca-9f04999d0a0c:F034E0825B674380A613DED8F17EE119
+[I 22:03:26.464 NotebookApp] Adapting to protocol v5.1 for kernel 64b79e7f-aed4-422c-a5ca-9f04999d0a0c
+[I 22:03:26.475 NotebookApp] Restoring connection for 64b79e7f-aed4-422c-a5ca-9f04999d0a0c:F034E0825B674380A613DED8F17EE119
+[I 23:54:50.795 NotebookApp] Starting buffering for 64b79e7f-aed4-422c-a5ca-9f04999d0a0c:F034E0825B674380A613DED8F17EE119
+[W 19:24:45.375 NotebookApp] Notebook two_layer_net.ipynb is not trusted
+[W 19:24:45.440 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.252) 22.54ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 19:24:46.467 NotebookApp] Kernel started: 763119f7-14f0-44ab-97bc-71fa94033620
+[I 19:24:49.901 NotebookApp] Adapting to protocol v5.1 for kernel 763119f7-14f0-44ab-97bc-71fa94033620
+[I 19:26:46.409 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 20:55:45.379 NotebookApp] Starting buffering for 763119f7-14f0-44ab-97bc-71fa94033620:45BEBD10250C4B29A252AE8D9ACA7BBF
+[W 12:41:06.790 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.252) 2.57ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 12:41:07.720 NotebookApp] Adapting to protocol v5.1 for kernel 763119f7-14f0-44ab-97bc-71fa94033620
+[I 16:41:35.499 NotebookApp] Starting buffering for 763119f7-14f0-44ab-97bc-71fa94033620:65A92A692E964D29BA665F03FFF1F87B
+[W 11:51:51.705 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 2.40ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 11:51:52.746 NotebookApp] Adapting to protocol v5.1 for kernel 763119f7-14f0-44ab-97bc-71fa94033620
+[I 11:53:52.535 NotebookApp] Saving file at /two_layer_net.ipynb
+[W 14:05:42.932 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 4.08ms referer=http://172.23.27.188:9999/notebooks/softmax.ipynb
+[I 14:05:43.829 NotebookApp] Adapting to protocol v5.1 for kernel 64b79e7f-aed4-422c-a5ca-9f04999d0a0c
+[I 14:17:53.040 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 14:19:52.882 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 14:21:52.869 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 14:39:58.972 NotebookApp] Starting buffering for 64b79e7f-aed4-422c-a5ca-9f04999d0a0c:65BBAF9041434B798234CE59417866E6
+[I 14:45:47.353 NotebookApp] Adapting to protocol v5.1 for kernel 64b79e7f-aed4-422c-a5ca-9f04999d0a0c
+[I 14:47:24.021 NotebookApp] Starting buffering for 763119f7-14f0-44ab-97bc-71fa94033620:5BB41CE222764D8A9D09C83FD7F8ECE4
+[I 16:58:40.880 NotebookApp] Starting buffering for 64b79e7f-aed4-422c-a5ca-9f04999d0a0c:A63467CC233249A186A8010998CC938B
+[W 16:58:45.571 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 14.69ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 16:58:46.360 NotebookApp] Adapting to protocol v5.1 for kernel 763119f7-14f0-44ab-97bc-71fa94033620
+[I 17:00:46.373 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:02:46.395 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:04:46.399 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:28:46.428 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:30:46.672 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:34:46.437 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:36:46.653 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:30:46.571 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 20:05:36.396 NotebookApp] Starting buffering for 763119f7-14f0-44ab-97bc-71fa94033620:5AB21D8E115E4D3781D9EB488D8D643B
+[I 12:21:11.877 NotebookApp] Adapting to protocol v5.1 for kernel 763119f7-14f0-44ab-97bc-71fa94033620
+[I 12:21:11.878 NotebookApp] Restoring connection for 763119f7-14f0-44ab-97bc-71fa94033620:5AB21D8E115E4D3781D9EB488D8D643B
+[I 14:19:14.216 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:55:14.675 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:57:14.515 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:59:14.514 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:23:14.593 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:25:14.547 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:29:14.570 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:35:14.578 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:37:14.550 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:39:14.609 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:57:14.673 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 20:31:14.798 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 20:33:14.831 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 20:37:14.650 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 21:22:31.098 NotebookApp] Starting buffering for 763119f7-14f0-44ab-97bc-71fa94033620:5AB21D8E115E4D3781D9EB488D8D643B
+[I 16:18:28.636 NotebookApp] Adapting to protocol v5.1 for kernel 763119f7-14f0-44ab-97bc-71fa94033620
+[I 16:18:28.639 NotebookApp] Restoring connection for 763119f7-14f0-44ab-97bc-71fa94033620:5AB21D8E115E4D3781D9EB488D8D643B
+[I 16:19:39.306 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:41:40.482 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:47:40.527 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:53:39.540 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:55:39.625 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:57:39.775 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:58:16.463 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 763119f7-14f0-44ab-97bc-71fa94033620 restarted
+[I 16:59:40.248 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:00:19.609 NotebookApp] Kernel shutdown: 763119f7-14f0-44ab-97bc-71fa94033620
+[W 17:00:25.482 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 46.59ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 17:00:27.614 NotebookApp] Kernel started: 7c3a54a1-9cf7-4159-8116-31a1f3b9c88d
+[I 17:00:30.957 NotebookApp] Adapting to protocol v5.1 for kernel 7c3a54a1-9cf7-4159-8116-31a1f3b9c88d
+[I 17:02:27.923 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:22:28.842 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:23:02.414 NotebookApp] Starting buffering for 7c3a54a1-9cf7-4159-8116-31a1f3b9c88d:828DB5D11F894FC29DC7809ADFA2FDC5
+[W 17:23:49.851 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 2.76ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 17:23:51.335 NotebookApp] Adapting to protocol v5.1 for kernel 7c3a54a1-9cf7-4159-8116-31a1f3b9c88d
+[I 17:24:42.596 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 7c3a54a1-9cf7-4159-8116-31a1f3b9c88d restarted
+[I 17:24:47.253 NotebookApp] Kernel shutdown: 7c3a54a1-9cf7-4159-8116-31a1f3b9c88d
+[W 17:24:50.968 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 12.17ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 17:24:52.408 NotebookApp] Kernel started: a0e6d42e-37c7-4468-b746-45c2c6248b56
+[I 17:24:56.981 NotebookApp] Adapting to protocol v5.1 for kernel a0e6d42e-37c7-4468-b746-45c2c6248b56
+[I 17:26:56.870 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:34:56.844 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:36:56.835 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:38:24.987 NotebookApp] Kernel shutdown: a0e6d42e-37c7-4468-b746-45c2c6248b56
+[W 17:38:27.264 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 3.21ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 17:38:29.035 NotebookApp] Kernel started: bfe054b9-1610-4204-9faf-4449e9438cf4
+[I 17:38:32.768 NotebookApp] Adapting to protocol v5.1 for kernel bfe054b9-1610-4204-9faf-4449e9438cf4
+[I 17:40:31.398 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:42:32.070 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 17:44:32.012 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:26:33.132 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:28:34.091 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:30:31.267 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:32:31.971 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:34:31.347 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:36:31.363 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:38:32.155 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:42:31.351 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:46:31.278 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:46:47.031 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel bfe054b9-1610-4204-9faf-4449e9438cf4 restarted
+[I 18:48:31.847 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:52:31.247 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:54:32.352 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:56:31.270 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 18:58:31.269 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:00:32.446 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:01:21.375 NotebookApp] Starting buffering for bfe054b9-1610-4204-9faf-4449e9438cf4:0B2C4CD56684400E9ECEE23A5F99E206
+[I 19:01:28.206 NotebookApp] Discarding 1 buffered messages for bfe054b9-1610-4204-9faf-4449e9438cf4:0B2C4CD56684400E9ECEE23A5F99E206
+[I 19:01:33.293 NotebookApp] Kernel shutdown: bfe054b9-1610-4204-9faf-4449e9438cf4
+[W 19:01:34.711 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 26.43ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 19:01:35.642 NotebookApp] Kernel started: d03e8e93-32be-4bc4-800a-683af2e5ddf6
+[I 19:01:40.315 NotebookApp] Adapting to protocol v5.1 for kernel d03e8e93-32be-4bc4-800a-683af2e5ddf6
+[I 19:03:35.799 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:05:36.271 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:07:35.825 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:09:35.773 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:11:35.855 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:13:36.346 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:15:36.383 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:17:36.277 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:19:36.487 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:21:35.772 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:23:35.786 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:25:35.775 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:27:35.797 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:29:35.790 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 19:31:02.880 NotebookApp] Starting buffering for d03e8e93-32be-4bc4-800a-683af2e5ddf6:9FC3407CED1545BB965473DC516839F9
+[I 09:23:58.959 NotebookApp] Saving file at /two_layer_net.ipynb
+[W 11:25:51.214 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 4.19ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 11:25:52.737 NotebookApp] Adapting to protocol v5.1 for kernel d03e8e93-32be-4bc4-800a-683af2e5ddf6
+[W 11:26:19.953 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 2.64ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 11:26:20.459 NotebookApp] Kernel started: fc9197a5-7ebd-4e10-8fb9-ec2753f51c8c
+[I 11:26:21.576 NotebookApp] Adapting to protocol v5.1 for kernel fc9197a5-7ebd-4e10-8fb9-ec2753f51c8c
+[W 11:31:55.902 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 2.36ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 11:31:57.722 NotebookApp] Adapting to protocol v5.1 for kernel 916f8cd3-5995-4d4a-a63e-40c89461d724
+[I 11:34:20.453 NotebookApp] Saving file at /features.ipynb
+[I 11:35:17.454 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel fc9197a5-7ebd-4e10-8fb9-ec2753f51c8c restarted
+[I 11:35:38.639 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel fc9197a5-7ebd-4e10-8fb9-ec2753f51c8c restarted
+[I 11:36:20.476 NotebookApp] Saving file at /features.ipynb
+[I 11:37:59.762 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel fc9197a5-7ebd-4e10-8fb9-ec2753f51c8c restarted
+[I 11:38:20.957 NotebookApp] Kernel shutdown: fc9197a5-7ebd-4e10-8fb9-ec2753f51c8c
+[I 11:38:21.045 NotebookApp] Saving file at /features.ipynb
+[W 11:38:23.860 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 21.39ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 11:38:24.642 NotebookApp] Kernel started: c7bb9890-eb4f-48e5-82aa-668c18bd8a5f
+[I 11:38:25.694 NotebookApp] Adapting to protocol v5.1 for kernel c7bb9890-eb4f-48e5-82aa-668c18bd8a5f
+[I 11:38:36.635 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel c7bb9890-eb4f-48e5-82aa-668c18bd8a5f restarted
+[I 11:39:03.721 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel c7bb9890-eb4f-48e5-82aa-668c18bd8a5f restarted
+[I 11:39:25.098 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel c7bb9890-eb4f-48e5-82aa-668c18bd8a5f restarted
+[I 11:39:58.153 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel c7bb9890-eb4f-48e5-82aa-668c18bd8a5f restarted
+[I 11:40:25.113 NotebookApp] Saving file at /features.ipynb
+OpenBLAS blas_thread_init: pthread_create: Resource temporarily unavailable
+OpenBLAS blas_thread_init: RLIMIT_NPROC -1 current, -1 max
+[I 11:41:53.424 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 11:42:08.637 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel d03e8e93-32be-4bc4-800a-683af2e5ddf6 restarted
+[I 11:42:24.739 NotebookApp] Saving file at /features.ipynb
+[I 11:43:08.093 NotebookApp] Starting buffering for d03e8e93-32be-4bc4-800a-683af2e5ddf6:A5965395376A401A8707ECD2B0924073
+[I 11:43:11.062 NotebookApp] Adapting to protocol v5.1 for kernel d03e8e93-32be-4bc4-800a-683af2e5ddf6
+[I 11:43:11.064 NotebookApp] Restoring connection for d03e8e93-32be-4bc4-800a-683af2e5ddf6:A5965395376A401A8707ECD2B0924073
+[I 11:43:12.967 NotebookApp] Starting buffering for c7bb9890-eb4f-48e5-82aa-668c18bd8a5f:2F421720A6DD4CA0A4E6B48B4157C07C
+[I 11:43:20.971 NotebookApp] Starting buffering for 916f8cd3-5995-4d4a-a63e-40c89461d724:7F024F067DC64216851DAD544D25C54B
+[I 11:43:56.830 NotebookApp] Adapting to protocol v5.1 for kernel c7bb9890-eb4f-48e5-82aa-668c18bd8a5f
+[I 11:43:56.832 NotebookApp] Restoring connection for c7bb9890-eb4f-48e5-82aa-668c18bd8a5f:2F421720A6DD4CA0A4E6B48B4157C07C
+[I 11:43:59.126 NotebookApp] Adapting to protocol v5.1 for kernel 916f8cd3-5995-4d4a-a63e-40c89461d724
+[I 11:43:59.127 NotebookApp] Restoring connection for 916f8cd3-5995-4d4a-a63e-40c89461d724:7F024F067DC64216851DAD544D25C54B
+[I 11:46:12.936 NotebookApp] Kernel shutdown: c7bb9890-eb4f-48e5-82aa-668c18bd8a5f
+[W 11:46:17.193 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 32.43ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 11:46:18.003 NotebookApp] Kernel started: cf7d6103-cc3f-4ffe-8712-a539db4f51b2
+[I 11:46:21.670 NotebookApp] Adapting to protocol v5.1 for kernel cf7d6103-cc3f-4ffe-8712-a539db4f51b2
+[I 11:48:17.469 NotebookApp] Starting buffering for 916f8cd3-5995-4d4a-a63e-40c89461d724:7F024F067DC64216851DAD544D25C54B
+[I 11:48:19.533 NotebookApp] Saving file at /features.ipynb
+[I 11:51:12.567 NotebookApp] Starting buffering for d03e8e93-32be-4bc4-800a-683af2e5ddf6:A5965395376A401A8707ECD2B0924073
+[I 11:58:31.753 NotebookApp] Starting buffering for cf7d6103-cc3f-4ffe-8712-a539db4f51b2:2A865B5F74B04B638D2607C280054F8C
+[W 14:09:54.039 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 3.69ms referer=http://172.23.27.188:9999/notebooks/features.ipynb
+[I 14:09:54.161 NotebookApp] Adapting to protocol v5.1 for kernel cf7d6103-cc3f-4ffe-8712-a539db4f51b2
+[I 14:11:54.159 NotebookApp] Saving file at /features.ipynb
+[I 14:21:54.134 NotebookApp] Saving file at /features.ipynb
+[W 14:22:49.799 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 12.31ms referer=http://172.23.27.188:9999/notebooks/svm.ipynb
+[I 14:22:51.206 NotebookApp] Adapting to protocol v5.1 for kernel 916f8cd3-5995-4d4a-a63e-40c89461d724
+[I 14:23:54.428 NotebookApp] Saving file at /features.ipynb
+[I 14:41:50.972 NotebookApp] Kernel shutdown: 64b79e7f-aed4-422c-a5ca-9f04999d0a0c
+[I 14:41:56.140 NotebookApp] Kernel shutdown: 916f8cd3-5995-4d4a-a63e-40c89461d724
+[I 14:41:56.652 NotebookApp] Kernel shutdown: d03e8e93-32be-4bc4-800a-683af2e5ddf6
+[W 15:09:36.068 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 25.95ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 15:09:40.051 NotebookApp] Kernel started: d261f19f-d7a3-4fec-9172-e89b5daa871f
+[I 15:09:43.531 NotebookApp] Adapting to protocol v5.1 for kernel d261f19f-d7a3-4fec-9172-e89b5daa871f
+[I 15:13:54.875 NotebookApp] Saving file at /features.ipynb
+[I 15:15:54.917 NotebookApp] Saving file at /features.ipynb
+[I 15:23:54.568 NotebookApp] Saving file at /features.ipynb
+[I 15:25:54.792 NotebookApp] Saving file at /features.ipynb
+[I 15:27:54.249 NotebookApp] Saving file at /features.ipynb
+[I 15:29:54.278 NotebookApp] Saving file at /features.ipynb
+[I 15:33:54.362 NotebookApp] Saving file at /features.ipynb
+[I 15:35:55.144 NotebookApp] Saving file at /features.ipynb
+[I 15:37:54.468 NotebookApp] Saving file at /features.ipynb
+[I 15:39:54.714 NotebookApp] Saving file at /features.ipynb
+[I 15:41:54.565 NotebookApp] Saving file at /features.ipynb
+[I 15:43:54.507 NotebookApp] Saving file at /features.ipynb
+[I 15:45:55.654 NotebookApp] Saving file at /features.ipynb
+[I 15:49:55.554 NotebookApp] Saving file at /features.ipynb
+[I 15:51:40.754 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 15:51:55.334 NotebookApp] Saving file at /features.ipynb
+[I 15:53:41.142 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 15:53:55.622 NotebookApp] Saving file at /features.ipynb
+[I 15:55:54.703 NotebookApp] Saving file at /features.ipynb
+[I 15:57:56.272 NotebookApp] Saving file at /features.ipynb
+[I 16:01:55.650 NotebookApp] Saving file at /features.ipynb
+[I 16:03:54.995 NotebookApp] Saving file at /features.ipynb
+[I 16:05:55.293 NotebookApp] Saving file at /features.ipynb
+[I 16:07:42.335 NotebookApp] Starting buffering for d261f19f-d7a3-4fec-9172-e89b5daa871f:74D08846576340E79EC45358FCC93557
+[W 16:07:48.334 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 2.31ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 16:07:52.452 NotebookApp] Adapting to protocol v5.1 for kernel d261f19f-d7a3-4fec-9172-e89b5daa871f
+[I 16:07:56.704 NotebookApp] Saving file at /features.ipynb
+[I 16:09:52.874 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:11:53.214 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:11:54.579 NotebookApp] Saving file at /features.ipynb
+[I 16:13:54.310 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:13:54.743 NotebookApp] Saving file at /features.ipynb
+[I 16:15:52.987 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:15:54.522 NotebookApp] Saving file at /features.ipynb
+[I 16:17:52.964 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:17:55.354 NotebookApp] Saving file at /features.ipynb
+[I 16:19:54.473 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:19:55.421 NotebookApp] Saving file at /features.ipynb
+[I 16:21:55.179 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:21:55.558 NotebookApp] Saving file at /features.ipynb
+[I 16:23:52.914 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:23:54.501 NotebookApp] Saving file at /features.ipynb
+[I 16:25:54.203 NotebookApp] Saving file at /two_layer_net.ipynb
+[I 16:25:54.733 NotebookApp] Saving file at /features.ipynb
+[I 16:27:54.734 NotebookApp] Saving file at /features.ipynb
+[I 16:31:54.482 NotebookApp] Saving file at /features.ipynb
+[I 16:33:55.543 NotebookApp] Saving file at /features.ipynb
+[I 16:35:54.514 NotebookApp] Saving file at /features.ipynb
+[I 16:37:54.833 NotebookApp] Saving file at /features.ipynb
+[I 16:39:54.644 NotebookApp] Saving file at /features.ipynb
+[I 16:40:30.227 NotebookApp] Starting buffering for d261f19f-d7a3-4fec-9172-e89b5daa871f:845D166CC36942808BD5FDCF1CC11EED
+[I 16:51:54.637 NotebookApp] Saving file at /features.ipynb
+[I 16:53:55.772 NotebookApp] Saving file at /features.ipynb
+[I 16:55:54.779 NotebookApp] Saving file at /features.ipynb
+[I 16:57:55.641 NotebookApp] Saving file at /features.ipynb
+[I 16:59:55.599 NotebookApp] Saving file at /features.ipynb
+[I 17:38:17.662 NotebookApp] Starting buffering for cf7d6103-cc3f-4ffe-8712-a539db4f51b2:03605134C87E48088BBD6EE68249156A
+[W 09:57:50.825 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180211173237 (172.23.11.251) 2.19ms referer=http://172.23.27.188:9999/notebooks/two_layer_net.ipynb
+[I 09:57:54.067 NotebookApp] Adapting to protocol v5.1 for kernel d261f19f-d7a3-4fec-9172-e89b5daa871f
+[I 11:25:09.188 NotebookApp] Starting buffering for d261f19f-d7a3-4fec-9172-e89b5daa871f:4F9AFC84FEA541F48D9C8FFF6EB89D16
+[I 19:02:31.688 NotebookApp] 302 GET /tree? (172.23.11.251) 52.66ms
+[I 19:02:37.372 NotebookApp] 302 POST /login?next=%2Ftree%3F (172.23.11.251) 19.76ms
+[I 19:23:43.046 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[C 19:23:56.895 NotebookApp] received signal 15, stopping
+[I 19:23:57.067 NotebookApp] Shutting down 2 kernels
+[I 19:23:57.873 NotebookApp] Kernel shutdown: cf7d6103-cc3f-4ffe-8712-a539db4f51b2
+[I 19:23:57.875 NotebookApp] Kernel shutdown: d261f19f-d7a3-4fec-9172-e89b5daa871f

@@ -1,0 +1,24 @@
+[W 15:54:19.953 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 15:54:20.036 NotebookApp] Serving notebooks from local directory: /home/hmf/cs231n/assignment3
+[I 15:54:20.036 NotebookApp] 0 active kernels
+[I 15:54:20.036 NotebookApp] The Jupyter Notebook is running at:
+[I 15:54:20.036 NotebookApp] http://[all ip addresses on your system]:9999/
+[I 15:54:20.036 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+(B)0[1;24r[m[?7h[?1h=[H[J[21B[0;7mGetting http://localhost:9999/tree[m[0;7mLooking up localhost:9999[m         [22;26H[0;7mMaking HTTP connection to localhost:9999[m[0;7mSending HTTP request.[m                   [22;22H[0;7mHTTP request sent; waiting for response.[m
+
+[24;1H[?1l>[I 15:54:20.302 NotebookApp] 302 GET /tree (::1) 4.05ms
+[I 15:54:40.965 NotebookApp] 302 GET /tree? (172.23.11.251) 1.32ms
+[I 15:54:47.065 NotebookApp] 302 POST /login?next=%2Ftree%3F (172.23.11.251) 2.89ms
+[W 15:54:56.342 NotebookApp] Notebook ImageGeneration.ipynb is not trusted
+[W 15:54:56.750 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180510155419 (172.23.11.251) 31.01ms referer=http://172.23.27.188:9999/notebooks/ImageGeneration.ipynb
+[I 15:55:05.938 NotebookApp] Kernel started: a234b7bd-ef35-42b3-86bd-65ca8c7f191d
+[I 15:55:07.440 NotebookApp] Adapting to protocol v5.1 for kernel a234b7bd-ef35-42b3-86bd-65ca8c7f191d
+[I 15:57:16.806 NotebookApp] Saving file at /ImageGeneration.ipynb
+[W 15:57:16.807 NotebookApp] Notebook ImageGeneration.ipynb is not trusted
+[I 15:59:20.576 NotebookApp] Saving file at /ImageGeneration.ipynb
+[W 15:59:20.577 NotebookApp] Notebook ImageGeneration.ipynb is not trusted
+[I 16:09:31.514 NotebookApp] Starting buffering for a234b7bd-ef35-42b3-86bd-65ca8c7f191d:1C39E26F926346D5AE8472F8C5126FE3
+[W 16:58:09.358 NotebookApp] Notebook ImageGeneration.ipynb is not trusted
+[W 16:58:09.783 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180510155419 (172.23.11.251) 2.51ms referer=http://172.23.27.188:9999/notebooks/ImageGeneration.ipynb
+[I 16:58:17.886 NotebookApp] Adapting to protocol v5.1 for kernel a234b7bd-ef35-42b3-86bd-65ca8c7f191d
+[I 00:12:32.947 NotebookApp] Starting buffering for a234b7bd-ef35-42b3-86bd-65ca8c7f191d:2E7E1B984B1F4D93B8EE691B7AD1D334
